@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+@-ms-viewport{width:device-width;}
+@-o-viewport{width:device-width;}
+@-moz-viewport{width:device-width;}
+@-webkit-viewport{width:device-width;}
+@viewport{width:device-width;}
+@font-face{font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;}/*Noto Sans KR : 한국 폰트 / Roboto : 영문 폰트*/
+
+body { background:#fff;font-family:"gulim", sans-serif;font-size:12px;color:#5b5b5b;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup {padding:0px;margin:0px;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;color:#5b5b5b;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+
+a,a:link,a:visited,a:active{color:#575757;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+a:hover{color:#575757;text-decoration:none;}/* text-decoration:none으로 바꾸면 a태그에 밑줄이 안생김 */
+
+.clearfix::after{content:""; display:block; clear:both;}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+#wrap{
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* header */
+#header_wrap{
+    width:100%;
+    height:90px;
+    background-color:#fff;
+    border-bottom: 1px solid #ededed;
+    position: fixed;
+}
+
+header{
+    max-width: 1800px;
+    width: 100%;
+    height: 60px;
+    position:relative;
+    top:15px;
+}
+
+#logo, nav, nav li{float:left;}
+
+#logo{
+    width:132px;
+    height:60px;
+    position: relative;
+    left: 200px;
+}
+
+#logo img{
+    width:100%;
+}
+
+nav{
+    width: 58%;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    left: 380px;
+}
+
+nav li{
+    width: 9.875%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 3%;
+    font-size: 11px;
+}
+
+nav li:nth-child(1){
+    margin-left: 0;
+}
+nav li h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #191919;
+}
+
+#icon{
+    width: 182px;
+    height: 30px;
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+#icon li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+#icon li:nth-child(1){
+    margin-left: 0;
+    background-image: url("image/icon/header-icon-1-1.png");
+    background-size: 100%;
+}
+
+#icon li:nth-child(2){
+    background-image: url("image/icon/header-icon-3-1.png");
+    background-size: 100%;
+}
+
+#icon li:nth-child(3){
+    background-image: url("image/icon/header-icon-4-1.png");
+    background-size: 100%;
+}
+
+#icon li:nth-child(4){
+    background-image: url("image/icon/header-icon-5-1.png");
+    background-size: 100%;
+
+}
+
+/* header */
+
+/* aside */
+aside{
+    height: 90.9%;
+    width: 70px;    
+    position: fixed;
+    top: 90px;
+}
+
+#aside_1{
+    height:45%;
+    width: 100%;
+    background: linear-gradient( to bottom, #f98451, #f16122);
+}
+
+#aside_2{
+    height: 55%;    
+    width:100%;
+    background-color: #191919;
+}
+
+#alogo{
+    width: 25px;
+    height: 125px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+#alogo img{
+    width:100%;
+}
+
+#aside_2 ul{
+    position: relative;
+    top: 40px;  
+    left: 15px;
+}
+
+#aside_2 li{
+    width:40px;
+    height:40px;
+    margin-top: 30px;
+}
+
+#aside_2 li:nth-child(1){
+    margin-top: 0;
+    background-image: url("image/icon/aside-icon-1-2.png");
+    background-size: 100%;
+}
+
+#aside_2 li:nth-child(2){
+    background-image: url("image/icon/aside-icon-2-1.png");
+    background-size: 100%;
+}
+
+#aside_2 li:nth-child(3){   
+    background-image: url("image/icon/aside-icon-3-1.png");
+    background-size: 100%;
+}
+
+#topbt{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    background-image: url("image/icon/aside-icon-top.png");
+    background-size: 100%;
+}
+/* aside */
+
+/* section_1 */
+
+#section_1_wrap{
+    width:100%;
+    position:relative;
+    left: 200px;
+    top: 90px;
+}
+#section_1_article{
+    max-width: 1600px;
+    width: 100%;
+    position:relative;
+    top: 60px;
+    left: 200px;
+}
+.section_title{
+    width: 100%;
+    text-align: center;
+}
+.section_title h3{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #191919;
+}
+.section_title h4{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #767676;
+}
+#section_1{
+    max-width: 1600px;
+    width: 100%;
+    background-color: red;
+    margin-top: 40px;
+}
+
+.image_box_1{
+    width: 500px;
+    height:500px;
+}
+/* section_1 */
