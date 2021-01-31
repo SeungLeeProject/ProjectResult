@@ -7,5 +7,5 @@ $(function(){
         moveSlides : 1, //슬라이드 이동하는 개수
         slideMargin : 40, //각 슬라이드의 여백
         pager: true,
-      });
-  });
+    });
+});
