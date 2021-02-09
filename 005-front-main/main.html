@@ -23,35 +23,6 @@
         <div id="header_all_wrap"><!--2. 모든 헤더를 감싸는 (#header_all_wrap)-->
             <div id="header_fixed"></div><!--3. 좌측 고정 여백 공간 (#header_fixed)-->
             <div id="header_wrap"><!--3. 헤더 영역만을 감싸는 (#header_wrap)-->
-                <!--Search-->
-                <div class="search_wrap">
-                    <div class="search">
-                        <h2>어떤 취미를 찾으시나요?</h2>
-
-                        <div class="search_btn">
-                            <div class="search">
-                                <input type="text" placeholder="취미를 찾아보세요.">
-                            </div>
-                            <div class="button">
-                                <button>검색</button>
-                            </div>
-                        </div>
-
-                        <div class="search_img">
-                            <ul>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                            </ul>
-                        </div>
-
-                        <div class="closs">
-                            
-                        </div>
-                    </div>
-                </div>
-                <!--Search-->
                 <div class="margin_L"></div><!--4-1 .margin_L-->
 
                 <header><!--4-2. header-->
@@ -110,8 +81,34 @@
 
                 <div class="margin_R"></div><!--4-3 .margin_R-->
             </div>
-            
         </div>
+        <!--Search-->
+        <div class="search_wrap">
+            <div class="search">
+                <h2>어떤 취미를 찾으시나요?</h2>
+                <div class="searchbox">
+                    <input class="searchborder" type="text" placeholder="취미를 찾아보세요.">
+                    <button class="submitbtn" type="submit"></button>
+                </div>
+
+                <div class="search_img">
+                    <p>#추천 취미</p>
+                    <ul class="clearfix">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                    <button class="searchclose"></button>
+                </div>
+
+                <div class="closs">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="searchbg"></div>
+        <!--Search-->
         <!-- header -->
 
         <!-- con -->
@@ -234,6 +231,7 @@
                     <!-- 4. section_1 > 하단 버튼 -->
                     <div id="btn_1" class="clearfix">
                         <div class="on_1 onbtnhover"></div>
+                        <div class="onbtnhover"></div>
                         <div class="onbtnhover"></div>
                         <div class="onbtnhover"></div>
                         <div class="onbtnhover"></div>
@@ -500,8 +498,8 @@
                         </div>
 
                         <div id="slide_3">
-                            <div id="slidewrap_3">
-                                <ul class="slidelist_3">
+                            <div id="slidewrap_3"><!--보이는 부분-->
+                                <ul class="slidelist_3"><!--리스트 영역-->
                                     <li>
                                         <span class="con_3_textbox">
                                             <h4>Wax Sealing</h4>
@@ -571,11 +569,39 @@
                         <div class="on_3 onbtnhover"></div>
                         <div class="onbtnhover"></div>
                         <div class="onbtnhover"></div>
-                        <div class="onbtnhover"></div>
                     </div>
 
                 </section>
                 <!-- con_3 -->
+                <!-- footer -->
+                <footer>
+                    <div id="footer1">
+                        <div id="footerlogo">
+                            <img src="image/logo/only-home-logo.png" alt="">
+                        </div>
+
+                        <div id="info">
+                            <p>승리프로젝트_온리홈</p>
+                            <span class="line"></span>
+                            <p>프로젝트 참여 인원 : 송근영/신지현/최찬식</p>
+                            <span class="line"></span>
+                            <p>경기도 고양특별시 일산동구 장항동 740-1 4층</p>
+                        </div>
+                        <p id="leader">팀장 : 최찬식</p>
+
+                        <div id="sns">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div id="footer2">
+                        <p>Copyright ⓒ by seungleeyouth.</p>
+                    </div>
+                </footer>
+                <!-- footer -->
             </div>
         </div>
         <!-- con -->
@@ -607,37 +633,6 @@
             </div>
         </div>
     </aside>
-    <!-- aside -->
-    <!-- footer -->
-    <footer>
-        <div id="footer1">
-            <div id="footerlogo">
-                <img src="image/logo/only-home-logo.png" alt="">
-            </div>
-
-            <div id="info">
-                <p>승리프로젝트_온리홈</p>
-                <span class="line"></span>
-                <p>프로젝트 참여 인원 : 송근영/신지현/최찬식</p>
-                <span class="line"></span>
-                <p>경기도 고양특별시 일산동구 장항동 740-1 4층</p>
-            </div>
-            <p id="leader">팀장 : 최찬식</p>
-
-            <div id="sns">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div id="footer2">
-            <p>Copyright ⓒ by seungleeyouth.</p>
-        </div>
-    </footer>
-    <!— footer —>
-
+    <!— aside —>
 </body>
-
 </html>
