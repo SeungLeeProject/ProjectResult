@@ -140,20 +140,20 @@ body{font-size: 1rem;}
 }
 #header_wrap > header > #icon li:nth-child(1){
     margin-left: 0;
-    background-image: url("image/icon/header-icon-2-1.png");
+    background-image: url("../image/icon/header-icon-2-1.png");
     background-size: 100%;
 }
 #header_wrap > header > #icon li:nth-child(2){
-    background-image: url("image/icon/header-icon-3-1.png");
+    background-image: url("../image/icon/header-icon-3-1.png");
     background-size: 100%;
 }
 #header_wrap > header > #icon li:nth-child(3){
-    background-image: url("image/icon/header-icon-4-1.png");
+    background-image: url("../image/icon/header-icon-4-1.png");
     background-size: 100%;
 }
 #header_wrap > header > #icon li:nth-child(4){
     position: relative;
-    background-image: url("image/icon/header-icon-5-1.png");
+    background-image: url("../image/icon/header-icon-5-1.png");
     background-size: 100%;
     width: 1.25rem;
     /* 25px; */
@@ -288,7 +288,7 @@ body{font-size: 1rem;}
     /* 10px; */
     bottom: 0.5rem;
     /* 10px; */
-    background-image: url("image/icon/Search-icon-1.png");
+    background-image: url("../image/icon/Search-icon-1.png");
     background-size: 100%;
     border-style: none;
     background-color: #fff;
@@ -343,22 +343,22 @@ body{font-size: 1rem;}
 }
 .search_wrap > .search > .search_img > ul li:nth-child(1){
     margin: 0;
-    background-image: url("image/section-1-img/1-1.png");
+    background-image: url("../image/section-1-img/1-1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .search_wrap > .search > .search_img > ul li:nth-child(2){
-    background-image: url("image/section-1-img/1-2.png");
+    background-image: url("../image/section-1-img/1-2.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .search_wrap > .search > .search_img > ul li:nth-child(3){
-    background-image: url("image/section-1-img/1-3.png");
+    background-image: url("../image/section-1-img/1-3.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .search_wrap > .search > .search_img > ul li:nth-child(4){
-    background-image: url("image/section-1-img/1-4.png");
+    background-image: url("../image/section-1-img/1-4.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -372,7 +372,7 @@ body{font-size: 1rem;}
     /* 35px; */
     background-color: #fff;
     border: 1px solid #191919;
-    background-image: url("image/icon/Search-icon-2.png");
+    background-image: url("../image/icon/Search-icon-2.png");
     background-size: 100%;
     cursor: pointer;
 }
@@ -541,7 +541,7 @@ body{font-size: 1rem;}
     /* 55px; */
     display: block;
     cursor: pointer;
-    background-image: url("image/icon/section12-icon-L.png");
+    background-image: url("../image/icon/section12-icon-L.png");
     background-size: 100%;
 }
 .controls_12 #next > i{
@@ -551,7 +551,7 @@ body{font-size: 1rem;}
     /* 55px; */
     display: block;
     cursor: pointer;
-    background-image: url("image/icon/section12-icon-R.png");
+    background-image: url("../image/icon/section12-icon-R.png");
     background-size: 100%;
 }
 /* 5-1, 5-3 .margin_L & .margin_R*/
@@ -812,16 +812,16 @@ body{font-size: 1rem;}
     display: block;
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other > .con_2_1_comments > i{
-    background-image: url("image/icon/article-icon-1.png");
+    background-image: url("../image/icon/article-icon-1.png");
     cursor: pointer;
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other > .con_2_1_like > i{
-    background-image: url("image/icon/article-icon-2-1.png");
+    background-image: url("../image/icon/article-icon-2-1.png");
     cursor: pointer;
     transition: all .3s;
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other > .con_2_1_like > i:hover{
-    background-image: url("image/icon/article-icon-2-2.png");
+    background-image: url("../image/icon/article-icon-2-2.png");
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other p{
     margin: 0.25rem 0 0 0.25rem;
@@ -831,27 +831,27 @@ body{font-size: 1rem;}
 
 /* 글 들어가는 곳 */
 .con_2_imgbox_1{
-    background-image: url("image/section_2_img/con_1.png");
+    background-image: url("../image/section_2_img/con_1.png");
     background-size: cover;
     background-position: center;
 }
 .con_2_imgbox_2{
-    background-image: url("image/section_2_img/con_2_2.jpg");
+    background-image: url("../image/section_2_img/con_2_2.jpg");
     background-size: cover;
     background-position: center;
 }
 .con_2_imgbox_3{
-    background-image: url("image/section_2_img/con_2_3.png");
+    background-image: url("../image/section_2_img/con_2_3.png");
     background-size: cover;
     background-position: center;
 }
 .con_2_imgbox_4{
-    background-image: url("image/section_2_img/con_2_4.jpg");
+    background-image: url("../image/section_2_img/con_2_4.jpg");
     background-size: cover;
     background-position: center;
 }
 .con_2_imgbox_5{
-    background-image: url("image/section_2_img/con_2_5.jpg");
+    background-image: url("../image/section_2_img/con_2_5.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -929,32 +929,32 @@ body{font-size: 1rem;}
     width: 50%;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(1){
-    background-image: url("image/section-3-img/3-1.png");
+    background-image: url("../image/section-3-img/3-1.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(2){
-    background-image: url("image/section-3-img/3-2.png");
+    background-image: url("../image/section-3-img/3-2.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(3){
-    background-image: url("image/section-3-img/3-3.png");
+    background-image: url("../image/section-3-img/3-3.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(4){
-    background-image: url("image/section-3-img/3-4.png");
+    background-image: url("../image/section-3-img/3-4.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(5){
-    background-image: url("image/section-3-img/3-5.png");
+    background-image: url("../image/section-3-img/3-5.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(6){
-    background-image: url("image/section-3-img/3-6.png");
+    background-image: url("../image/section-3-img/3-6.png");
     background-size: cover;
     background-position: center;
 }
@@ -1111,24 +1111,24 @@ footer > #footer1 > #sns div{
 }
 footer > #footer1 > #sns div:nth-child(1){
     margin-left: 0;
-    background-image: url("image/icon/footer-icon-sns-1.png");
+    background-image: url("../image/icon/footer-icon-sns-1.png");
     background-size: 100%;
 }
 
 footer > #footer1 > #sns div:nth-child(2){
-    background-image: url("image/icon/footer-icon-sns-2.png");
+    background-image: url("../image/icon/footer-icon-sns-2.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(3){
-    background-image: url("image/icon/footer-icon-sns-3.png");
+    background-image: url("../image/icon/footer-icon-sns-3.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(4){
-    background-image: url("image/icon/footer-icon-sns-4.png");
+    background-image: url("../image/icon/footer-icon-sns-4.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(5){
-    background-image: url("image/icon/footer-icon-sns-5.png");
+    background-image: url("../image/icon/footer-icon-sns-5.png");
     background-size: 100%;
 }
 
@@ -1199,28 +1199,28 @@ footer > #footer2 p{
 }
 #aside_wrap > #aside_2 li:nth-child(1){
     margin-top: 0;
-    background-image: url("image/icon/aside-icon-1-1.png");
+    background-image: url("../image/icon/aside-icon-1-1.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 li:nth-child(1):hover{
-    background-image: url("image/icon/aside-icon-1-2.png");
+    background-image: url("../image/icon/aside-icon-1-2.png");
 }
 #aside_wrap > #aside_2 li:nth-child(2){
-    background-image: url("image/icon/aside-icon-2-1.png");
+    background-image: url("../image/icon/aside-icon-2-1.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 li:nth-child(2):hover{
-    background-image: url("image/icon/aside-icon-2-2.png");
+    background-image: url("../image/icon/aside-icon-2-2.png");
 }
 #aside_wrap > #aside_2 li:nth-child(3){   
-    background-image: url("image/icon/aside-icon-3-1.png");
+    background-image: url("../image/icon/aside-icon-3-1.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 li:nth-child(3):hover{
-    background-image: url("image/icon/aside-icon-3-2.png");
+    background-image: url("../image/icon/aside-icon-3-2.png");
 }
 #aside_wrap > #aside_2 > #topbt{
     width: 2rem;
@@ -1232,12 +1232,12 @@ footer > #footer2 p{
     /* 30px; */
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("image/icon/aside-icon-top-2.png");
+    background-image: url("../image/icon/aside-icon-top-2.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 > #topbt:hover{
-    background-image: url("image/icon/aside-icon-top.png");
+    background-image: url("../image/icon/aside-icon-top.png");
     background-size: 100%;
 }
 /* aside */

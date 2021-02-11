@@ -1,0 +1,28 @@
+/* 전체적인 레이아웃 */
+    /* 양옆 마진 */
+[class*='margin']{
+    width: 4rem;
+    /* 80px; */
+    height: auto;
+}
+/* 전체적인 레이아웃 */
+
+/* section_1 */
+#con_1 > #slide_1 > #slidewrap li > .con_1_textbox{
+    top: 1.5rem;
+    /* 30px; */
+    left: 1.5rem;
+    /* 30px; */
+}
+/* section_1 */
+
+/* section_2 */
+.con_2_line > div{
+    margin: 0.8rem 0.8rem 0 0.8rem;
+    /* 16px 16px 0 16px; */
+}
+#con_2 > #slide_2 > #slide_2_wrap > .slide_2_list > .con_2_line{
+    margin-right: 1.6rem;
+    /* 32px; */
+}
+/* section_2 */
