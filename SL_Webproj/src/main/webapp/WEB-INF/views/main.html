@@ -12,8 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css" type="text/css" />
-    <link rel="stylesheet" href="css/desktop_1601_1670px.css" media="(min-width:1601px) and (max-width:1670px)" />
-    <link rel="stylesheet" href="css/desktop_1401_1600px.css" media="(min-width:1401px) and (max-width:1600px)" />
+    <link rel="stylesheet" href="css/desktop_1401_1670px.css" media="(min-width:1401px) and (max-width:1670px)" />
     <link rel="stylesheet" href="css/desktop_1321_1400px.css" media="(min-width:1321px) and (max-width:1400px)" />
     <link rel="stylesheet" href="css/laptop_1025_1320px.css" media="(min-width:1025px) and (max-width:1320px)" />
     <link rel="stylesheet" href="css/tablet_769_1024px.css" media="(min-width:769px) and (max-width:1024px)" />
@@ -95,8 +94,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="reactive_menu_icon"><p>Menu</p></div>
-                    <div class="reactive_menu_close_icon"></div>
+                    <div class="reactive_menu_wrap">
+                        <div class="reactive_menu_icon"><p>Menu</p></div>
+                        <div class="reactive_menu_close_icon"></div>
+                    </div>
                 </header>
 
                 <div class="margin_R"></div><!--4-3 .margin_R-->
@@ -114,10 +115,32 @@
                 <div class="search_img">
                     <p>#추천 취미</p>
                     <ul class="clearfix">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>한국<br />
+                                    요리</h4>
+                                <p>Korean cuisine</p>
+                            </span>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>베이킹</h4>
+                                <p>Baking</p>
+                            </span>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>홈카페<br />
+                                    홈커피</h4>
+                                <p>Home Cafe, <br/>Coffee</p>
+                            </span>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>공예</h4>
+                                <p>Craft</p>
+                            </span>
+                        </a></li>
                     </ul>
                     <button class="searchclose"></button>
                 </div>
