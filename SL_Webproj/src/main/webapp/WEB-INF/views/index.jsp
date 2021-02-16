@@ -3,7 +3,6 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,21 +13,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-<<<<<<< HEAD:005-front-main/main.html
-    <link rel="stylesheet" href="layout.css" type="text/css" />
-    <link rel="stylesheet" href="desktop_1601_1670px.css" media="(min-width:1601px) and (max-width:1670px)" />
-    <link rel="stylesheet" href="desktop_1401_1600px.css" media="(min-width:1401px) and (max-width:1600px)" />
-    <link rel="stylesheet" href="desktop_1321_1400px.css" media="(min-width:1321px) and (max-width:1400px)" />
-    <link rel="stylesheet" href="laptop_1025_1320px.css" media="(min-width:1025px) and (max-width:1320px)" />
-    <link rel="stylesheet" href="tablet_769_1024px.css" media="(min-width:769px) and (max-width:1024px)" />
-    <link rel="stylesheet" href="mobile_000_769px.css" media="(max-width:769px)" />
-    <script src="jquery-3.5.1.min.js" type="text/javascript" text="javascript"></script>
-    <script src="main.js" type="text/javascript" text="javascript"></script>
-=======
     <link rel="stylesheet" href="/resources/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/resources/css/desktop_1401_1670px.css" media="(min-width:1401px) and (max-width:1670px)" />
+    <link rel="stylesheet" href="/resources/css/desktop_1321_1400px.css" media="(min-width:1321px) and (max-width:1400px)" />
+    <link rel="stylesheet" href="/resources/css/laptop_1025_1320px.css" media="(min-width:1025px) and (max-width:1320px)" />
+    <link rel="stylesheet" href="/resources/css/tablet_769_1024px.css" media="(min-width:769px) and (max-width:1024px)" />
+    <link rel="stylesheet" href="/resources/css/mobile_000_769px.css" media="(max-width:769px)" />
     <script src="/resources/js/jquery-3.5.1.min.js" type="text/javascript" text="javascript"></script>
-    <script src="/resources/js/main.js" type="text/javascript" text="javascript"></script>
->>>>>>> 98833446bf5c0566cf6eebbc9564332681b616c6:SL_Webproj/src/main/webapp/WEB-INF/views/index.jsp
+    <script src="/resources/js/aside.js" type="text/javascript" text="javascript"></script>
 </head>
 
 <body>
@@ -38,45 +30,13 @@
         <div id="header_all_wrap"><!--2. 모든 헤더를 감싸는 (#header_all_wrap)-->
             <div id="header_fixed"></div><!--3. 좌측 고정 여백 공간 (#header_fixed)-->
             <div id="header_wrap"><!--3. 헤더 영역만을 감싸는 (#header_wrap)-->
-<<<<<<< HEAD:005-front-main/main.html
-=======
-                <!--Search-->
-                <div class="search_wrap">
-                    <div class="search">
-                        <h2>어떤 취미를 찾으시나요?</h2>
-
-                        <div class="search_btn">
-                            <div class="search">
-                                <input type="text" placeholder="취미를 찾아보세요.">
-                            </div>
-                            <div class="button">
-                                <button>검색</button>
-                            </div>
-                        </div>
-
-                        <div class="/resources/images/search_img">
-                            <ul>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                                <li><a href="#"><img src="" alt=""></a></li>
-                            </ul>
-                        </div>
-
-                        <div class="closs">
-                            
-                        </div>
-                    </div>
-                </div>
-                <!--Search-->
->>>>>>> 98833446bf5c0566cf6eebbc9564332681b616c6:SL_Webproj/src/main/webapp/WEB-INF/views/index.jsp
                 <div class="margin_L"></div><!--4-1 .margin_L-->
 
                 <header><!--4-2. header-->
                     <div id="logo">
                         <h1>
                             <a href="#">
-                                <img src="/resources/images/logo/only-home-logo.png" alt="">
+                                <img src="/resources/image/logo/only-home-logo.png" alt="">
                             </a>
                         </h1>
                     </div>
@@ -136,8 +96,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="reactive_menu_icon"><p>Menu</p></div>
-                    <div class="reactive_menu_close_icon"></div>
+                    <div class="reactive_menu_wrap">
+                        <div class="reactive_menu_icon"><p>Menu</p></div>
+                        <div class="reactive_menu_close_icon"></div>
+                    </div>
                 </header>
 
                 <div class="margin_R"></div><!--4-3 .margin_R-->
@@ -155,10 +117,32 @@
                 <div class="search_img">
                     <p>#추천 취미</p>
                     <ul class="clearfix">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>한국<br />
+                                    요리</h4>
+                                <p>Korean cuisine</p>
+                            </span>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>베이킹</h4>
+                                <p>Baking</p>
+                            </span>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>홈카페<br />
+                                    홈커피</h4>
+                                <p>Home Cafe, <br/>Coffee</p>
+                            </span>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="search_textbox">
+                                <h4>공예</h4>
+                                <p>Craft</p>
+                            </span>
+                        </a></li>
                     </ul>
                     <button class="searchclose"></button>
                 </div>
@@ -193,7 +177,6 @@
                             <div id="slidewrap"><!--보이는 영역-->
                                 <ul class="slidelist clearfix"><!--리스트 정렬 영역-->
                                     <li>
-<<<<<<< HEAD:005-front-main/main.html
                                         <a href="#">
                                             <span class="con_1_textbox">
                                                 <h4>한국<br />
@@ -201,7 +184,7 @@
                                                 <p>Korean cuisine</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-1.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-1.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -211,7 +194,7 @@
                                                 <p>Baking</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-2.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-2.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -222,7 +205,7 @@
                                                 <p>Home Cafe, <br/>Coffee</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-3.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-3.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -232,7 +215,7 @@
                                                 <p>Craft</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-4.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-4.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -242,7 +225,7 @@
                                                 <p>Pottery</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-5.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-5.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -252,7 +235,7 @@
                                                 <p>Music</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-6.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-6.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -262,7 +245,7 @@
                                                 <p>Study</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-7.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-7.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -272,7 +255,7 @@
                                                 <p>Reading</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-8.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-8.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -282,7 +265,7 @@
                                                 <p>Pet food</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-9.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-9.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -292,90 +275,8 @@
                                                 <p>Petware</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="image/section-1-img/1-10.png" alt="">
+                                            <img src="/resources/image/section-1-img/1-10.png" alt="">
                                         </a>
-=======
-                                        <span class="con_1_textbox">
-                                            <h4>한국<br />
-                                                요리</h4>
-                                            <p>Korean cuisine</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-1.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>베이킹</h4>
-                                            <p>Baking</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-2.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>홈카페<br />
-                                                홈커피</h4>
-                                            <p>Home Cafe, Coffee</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-3.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>공예</h4>
-                                            <p>Craft</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-4.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>도예</h4>
-                                            <p>Pottery</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-5.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>음악</h4>
-                                            <p>Music</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-6.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>공부</h4>
-                                            <p>Study</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-7.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>독서</h4>
-                                            <p>Reading</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-8.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>펫푸드</h4>
-                                            <p>Pet food</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-9.png" alt="">
-                                    </li>
-                                    <li>
-                                        <span class="con_1_textbox">
-                                            <h4>펫웨어</h4>
-                                            <p>Petware</p>
-                                        </span>
-                                        <div class="bg"></div>
-                                        <img src="/resources/images/section-1-img/1-10.png" alt="">
->>>>>>> 98833446bf5c0566cf6eebbc9564332681b616c6:SL_Webproj/src/main/webapp/WEB-INF/views/index.jsp
                                     </li>
                                 </ul>
                             </div>
@@ -672,7 +573,6 @@
                             <div id="slidewrap_3"><!--보이는 부분-->
                                 <ul class="slidelist_3 clearfix"><!--리스트 영역-->
                                     <li>
-<<<<<<< HEAD:005-front-main/main.html
                                         <a href="#">
                                             <span class="con_3_textbox">
                                                 <h4>Wax Sealing</h4>
@@ -733,60 +633,6 @@
                                             </span>
                                             <div class="bg-3"></div>
                                         </a>
-=======
-                                        <span class="con_3_textbox">
-                                            <h4>Wax Sealing</h4>
-                                            <p>실링 왁스</p>
-                                        </span>
-                                        <div class="bg-3"></div>
-                                        <img src="/resources/images/section-3-img/3-1.png" alt="">
-                                    </li>
-
-                                    <li>
-                                        <span class="con_3_textbox">
-                                            <h4>Calimba</h4>
-                                            <p>칼림바</p>
-                                        </span>
-                                        <div class="bg-3"></div>
-                                        <img src="/resources/images/section-3-img/3-2.png" alt="">
-                                    </li>
-
-                                    <li>
-                                        <span class="con_3_textbox">
-                                            <h4>Needlefeld</h4>
-                                            <p>니들펠트</p>
-                                        </span>
-                                        <div class="bg-3"></div>
-                                        <img src="/resources/images/section-3-img/3-3.png" alt="">
-                                    </li>
-
-                                    <li>
-                                        <span class="con_3_textbox">
-                                            <h4>French embroidery</h4>
-                                            <p>프랑스자수</p>
-                                        </span>
-                                        <div class="bg-3"></div>
-                                        <img src="/resources/images/section-3-img/3-4.png" alt="">
-                                    </li>
-
-                                    <li>
-                                        <span class="con_3_textbox">
-                                            <h4>DIY Miniature House</h4>
-                                            <p>DIY 미니어처 하우스</p>
-                                        </span>
-                                        <div class="bg-3"></div>
-                                        <img src="/resources/images/section-3-img/3-5.png" alt="">
-                                    </li>
-
-                                    <li>
-                                        <span class="con_3_textbox">
-                                            <h4>한국<br />
-                                                요리</h4>
-                                            <p>Korean cuisine</p>
-                                        </span>
-                                        <div class="bg-3"></div>
-                                        <img src="/resources/images/section-3-img/3-6.png" alt="">
->>>>>>> 98833446bf5c0566cf6eebbc9564332681b616c6:SL_Webproj/src/main/webapp/WEB-INF/views/index.jsp
                                     </li>
                                 </ul>
                             </div>
@@ -812,7 +658,7 @@
         <footer>
             <div id="footer1">
                 <div id="footerlogo">
-                    <img src="image/logo/only-home-logo.png" alt="">
+                    <img src="/resources/image/logo/only-home-logo.png" alt="">
                 </div>
                 <div id="info_box">
                     <div id="info">
@@ -844,7 +690,7 @@
     <aside id="aside_wrap">
         <div id="aside_1">
             <div id="alogo">
-                <img src="/resources/images/logo/logo-white.png" alt="#">
+                <img src="/resources/image/logo/logo-white.png" alt="#">
                 <!--logo-->
             </div>
         </div>
@@ -868,41 +714,5 @@
         </div>
     </aside>
     <!-- aside -->
-<<<<<<< HEAD:005-front-main/main.html
 </body>
 </html>
-=======
-    <!-- footer -->
-    <footer>
-        <div id="footer1">
-            <div id="footerlogo">
-                <img src="/resources/images/logo/only-home-logo.png" alt="">
-            </div>
-
-            <div id="info">
-                <p>승리프로젝트_온리홈</p>
-                <span class="line"></span>
-                <p>프로젝트 참여 인원 : 송근영/신지현/최찬식</p>
-                <span class="line"></span>
-                <p>경기도 고양특별시 일산동구 장항동 740-1 4층</p>
-            </div>
-            <p id="leader">팀장 : 최찬식</p>
-
-            <div id="sns">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <div id="footer2">
-            <p>Copyright ⓒ by seungleeyouth.</p>
-        </div>
-    </footer>
-    <!— footer —>
-
-</body>
-
-</html>
->>>>>>> 98833446bf5c0566cf6eebbc9564332681b616c6:SL_Webproj/src/main/webapp/WEB-INF/views/index.jsp
