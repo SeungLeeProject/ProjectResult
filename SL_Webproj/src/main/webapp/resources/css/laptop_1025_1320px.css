@@ -1,0 +1,86 @@
+/* 전체적인 레이아웃 */
+html{font-size: 18px;}
+body{font-size: 1rem;}
+    /* 양옆 마진 */
+[class*='margin']{
+    width: 4rem;
+    /* 80px; */
+    height: auto;
+}
+    /* 양옆 마진 */
+
+    /* 양옆 버튼 */
+.controls_12 #prev > i{
+    width: 2.2rem;
+    /* 39.6px; */
+    height: 2.2rem;
+    /* 39.6px; */
+}
+.controls_12 #next > i{
+    width: 2.2rem;
+    /* 39.6px; */
+    height: 2.2rem;
+    /* 39.6px; */
+}
+    /* 양옆 버튼 */
+
+    /* aside */
+#aside_wrap{
+    height: 93%;
+}
+    /* aside */
+/* 전체적인 레이아웃 */
+
+#header_wrap > header > nav li a{
+    padding: 0.75rem 0.75rem;
+}
+
+/* section_1 */
+#con_1 > #slide_1 > #slidewrap li .con_1_textbox > h4{
+    font-size: 1.6rem;
+    /* 28.8px; */
+    line-height: 1.9rem;
+    /* 34.2px; */
+}
+#con_1 > #slide_1 > #slidewrap li{
+    width: 23.5%;
+}
+/* section_1 */
+
+/* section_2 */
+.con_2_line > div{
+    margin: 0.85rem 0.85rem 0 0.85rem;
+    /* 15.3px 15.3px 0 15.3px; */
+}
+#con_2 > #slide_2 > #slide_2_wrap > .slide_2_list > .con_2_line{
+    width: 31.4%;
+    margin-right: 2.9%;
+}
+#con_2 > #slide_2 > #slide_2_wrap > .slide_2_list > .con_2_line:nth-child(4),
+#con_2 > #slide_2 > #slide_2_wrap > .slide_2_list > .con_2_line:nth-child(5){
+    display: none;
+}
+#con_2 > #slide_2 > #slide_2_wrap > .slide_2_list > .con_2_line:nth-child(3){
+    margin-right: 0;
+}
+.slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other{
+    width: 5.5rem;
+}
+/* section_2 */
+
+/* 버튼 & 기능 */
+.dropdown_content_before_logging_in{
+    top: 45px;
+}
+.dropdown_content_after_logging_in{
+    top: 45px;
+}
+.search_wrap > .search{
+    left: 55%;
+}
+/* 버튼 & 기능 */
+
+/* footer */
+footer{
+    top: 70px;
+}
