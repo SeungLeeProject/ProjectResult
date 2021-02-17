@@ -219,9 +219,13 @@ body{font-size: 1rem;}
 }
 .dropdown_content_before_logging_in{
     top: 42px;
+    transform: translateX(-100%);
+    left: 65px;
 }
 .dropdown_content_after_logging_in{
     top: 42px;
+    transform: translateX(-100%);
+    left: 65px;
 }
 /* 검색 */
 .search_wrap > .search{
