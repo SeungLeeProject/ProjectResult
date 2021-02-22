@@ -55,6 +55,8 @@ body{
     height: 100vh;
     width: 100%;
     display: none;
+    top: 59px;
+    background-color: #fff;
     /*메뉴 버튼을 눌렀을 때 fade in*/
 }
 #header_wrap > header > nav li{
@@ -66,7 +68,6 @@ body{
     /* 16x; */
 }
 #header_wrap > header > #icon{
-    /* display: none; */
     position: absolute;
     right: 0;
     top: 22px;
@@ -74,7 +75,6 @@ body{
     padding: 2rem 0 1.5rem 0;
 }
 .reactive_menu_wrap{
-    /* background-color: aqua; */
     height: 57.6px;
     position: absolute;
     left: 0;
@@ -105,20 +105,22 @@ body{
     color: #191919;
     position: relative;
     left: 25px;
-    top: 1.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 1px;
 }
 .reactive_menu_close_icon{
-    display: block;
+    display: none;
     width: 30px;
     height: 30px;
     position: absolute;
     right: 0;
-    top: 32px;
+    left: 0;
+    top: 50%;
     transform: translateY(-50%);
     background-image: url("../image/icon/menu_close.png");
     cursor: pointer;
     border: 1px solid #191919;
-    display: none;/*메뉴창이 뜨면 fade in*/
 }
 /* header */
 
@@ -283,7 +285,7 @@ footer{
     top: 60px;
 }
 
-/*-----------------------------------------*/
+
 /* 버튼 & 기능 */
 /* 마이페이지 */
 
@@ -299,7 +301,7 @@ footer{
 }
 
 /* 검색 */
-.search_wrap, #searchbg{
+.search_wrap{
     top: -30rem;/*48px 3.5rem이 도착점 시작점은 -600px  >  3rem  -30rem*/
 }
 .search_wrap > .search{
