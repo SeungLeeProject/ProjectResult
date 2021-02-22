@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -11,16 +13,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/login_layout.css" type="text/css" />
-    <link rel="stylesheet" href="css/fixedlayout.css" type="text/css" />
-    <link rel="stylesheet" href="css/desktop_1401_1670px.css" media="(min-width:1401px) and (max-width:1670px)" />
-    <link rel="stylesheet" href="css/desktop_1321_1400px.css" media="(min-width:1321px) and (max-width:1400px)" />
-    <link rel="stylesheet" href="css/laptop_1025_1320px.css" media="(min-width:1025px) and (max-width:1320px)" />
-    <link rel="stylesheet" href="css/tablet_769_1024px.css" media="(min-width:769px) and (max-width:1024px)" />
-    <link rel="stylesheet" href="css/mobile_000_769px.css" media="(max-width:768px)" />
-    <script src="js/jquery-3.5.1.min.js" type="text/javascript" text="javascript"></script>
-    <script src="js/aside.js" type="text/javascript" text="javascript"></script>
-    <script src="js/header.js" type="text/javascript" text="javascript"></script>
+    <link rel="stylesheet" href="/resources/css/login_layout.css" type="text/css" />
+    <link rel="stylesheet" href="/resources/css/fixedlayout.css" type="text/css" />
+    <link rel="stylesheet" href="/resources/css/desktop_1401_1670px.css" media="(min-width:1401px) and (max-width:1670px)" />
+    <link rel="stylesheet" href="/resources/css/desktop_1321_1400px.css" media="(min-width:1321px) and (max-width:1400px)" />
+    <link rel="stylesheet" href="/resources/css/laptop_1025_1320px.css" media="(min-width:1025px) and (max-width:1320px)" />
+    <link rel="stylesheet" href="/resources/css/tablet_769_1024px.css" media="(min-width:769px) and (max-width:1024px)" />
+    <link rel="stylesheet" href="/resources/css/mobile_000_769px.css" media="(max-width:768px)" />
+    <script src="/resources/js/jquery-3.5.1.min.js" type="text/javascript" text="javascript"></script>
+    <script src="/resources/js/aside.js" type="text/javascript" text="javascript"></script>
+    <script src="/resources/js/header.js" type="text/javascript" text="javascript"></script>
 </head>
 
 <body>
@@ -40,8 +42,8 @@
                     <!-- 5-1. header > #logo -->
                     <div id="logo">
                         <h1>
-                            <a href="#">
-                                <img src="image/logo/only-home-logo.png" alt="">
+                            <a href="/index">
+                                <img src="/resources/images/logo/only-home-logo.png" alt="">
                             </a>
                         </h1>
                     </div>
@@ -88,7 +90,7 @@
                             <li class="writingbtn"><a href="#"></a></li>
                             <li class="mypage_dropbox">
                                 <div class="dropdown_content_before_logging_in">
-                                    <a class="mypagenb_1" href="#">로그인</a>
+                                    <a class="mypagenb_1" href="/login">로그인</a>
                                     <a class="mypagenb_2" href="#">회원가입</a>
                                 </div>
                                 <div class="dropdown_content_after_logging_in">
@@ -202,7 +204,7 @@
                     <div id="footer1">
                         <!-- 4. footer > #footer1 > #footerlogo -->
                         <div id="footerlogo">
-                            <img src="image/logo/only-home-logo.png" alt="">
+                            <img src="/resources/image/logo/only-home-logo.png" alt="">
                         </div>
                         <!-- 4. footer > #footer1 > #info_box -->
                         <div id="info_box">
@@ -241,7 +243,7 @@
     <aside id="aside_wrap">
         <div id="aside_1">
             <div id="alogo">
-                <img src="image/logo/logo-white.png" alt="#">
+                <img src="/resources/image/logo/logo-white.png" alt="#">
             </div>
         </div>
         <div id="aside_2">
