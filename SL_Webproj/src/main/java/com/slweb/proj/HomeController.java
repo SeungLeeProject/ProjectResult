@@ -19,4 +19,10 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value = "login")
+	public String login(Locale locale) {
+		logger.info("Welcome login! The client locale is {}.", locale);
+		
+		return "login";
+	}
 }

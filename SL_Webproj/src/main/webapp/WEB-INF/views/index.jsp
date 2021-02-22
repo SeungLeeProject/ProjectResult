@@ -84,7 +84,7 @@
                             <li class="mypage_dropbox">
                                 <div class="mypagebtn"></div>
                                 <div class="dropdown_content_before_logging_in">
-                                    <a href="#">로그인</a>
+                                    <a href="/login">로그인</a>
                                     <a href="#">회원가입</a>
                                 </div>
                                 <div class="dropdown_content_after_logging_in">
