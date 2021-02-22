@@ -1,11 +1,11 @@
-/* 전체적인 레이아웃 */
+/* �쟾泥댁쟻�씤 �젅�씠�븘�썐 */
 html{font-size: 16px;}
 body{font-size: 1rem;}
 body{
     overflow-x: hidden;
 }
 
-/* 레이아웃 재구성 */
+/* �젅�씠�븘�썐 �옱援ъ꽦 */
 [class*='margin']{
     width: 4rem;
     /* 80px; */
@@ -26,9 +26,9 @@ body{
 [class*='margin']{
     display: none;
 }
-/* 레이아웃 재구성 */
+/* �젅�씠�븘�썐 �옱援ъ꽦 */
 
-/* 전체적인 레이아웃 재구성 */
+/* �쟾泥댁쟻�씤 �젅�씠�븘�썐 �옱援ъ꽦 */
 #con_all_wrap > #con_wrap{
     width: 100%;
     padding: 0 24px 0 24px;
@@ -55,7 +55,9 @@ body{
     height: 100vh;
     width: 100%;
     display: none;
-    /*메뉴 버튼을 눌렀을 때 fade in*/
+    top: 59px;
+    background-color: #fff;
+    /*硫붾돱 踰꾪듉�쓣 �닃���쓣 �븣 fade in*/
 }
 #header_wrap > header > nav li{
     display: block;
@@ -66,7 +68,6 @@ body{
     /* 16x; */
 }
 #header_wrap > header > #icon{
-    /* display: none; */
     position: absolute;
     right: 0;
     top: 22px;
@@ -74,7 +75,6 @@ body{
     padding: 2rem 0 1.5rem 0;
 }
 .reactive_menu_wrap{
-    /* background-color: aqua; */
     height: 57.6px;
     position: absolute;
     left: 0;
@@ -92,7 +92,7 @@ body{
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("../image/icon/menu.png");
+    background-image: url("/resources/images/icon/menu.png");
     background-size: 100%;
 }
 .reactive_menu_icon > p{
@@ -105,20 +105,22 @@ body{
     color: #191919;
     position: relative;
     left: 25px;
-    top: 1.5px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 1px;
 }
 .reactive_menu_close_icon{
-    display: block;
+    display: none;
     width: 30px;
     height: 30px;
     position: absolute;
     right: 0;
-    top: 32px;
+    left: 0;
+    top: 50%;
     transform: translateY(-50%);
-    background-image: url("../image/icon/menu_close.png");
+    background-image: url("/resources/images/icon/menu_close.png");
     cursor: pointer;
     border: 1px solid #191919;
-    display: none;/*메뉴창이 뜨면 fade in*/
 }
 /* header */
 
@@ -156,10 +158,10 @@ body{
     display: none;
 }
 #con_1_wrap > #btn_1{
-    display: none;/*여기서는 fade out*/
+    display: none;/*�뿬湲곗꽌�뒗 fade out*/
 }
 #con_1_wrap > #viewmorebtn_1{
-    display: inline-block;/*여기서 fade in*/
+    display: inline-block;/*�뿬湲곗꽌 fade in*/
 }
 #con_1 > #slide_1 > #slidewrap li > .con_1_textbox{
     top: 1.5rem;
@@ -239,10 +241,10 @@ body{
 }
 #con_3_wrap > #btn_3{
     display: none;
-    /*여기서는 fade out*/
+    /*�뿬湲곗꽌�뒗 fade out*/
 }
 #con_3_wrap > #viewmorebtn_3{
-    display: block;/*여기서 fade in*/
+    display: block;/*�뿬湲곗꽌 fade in*/
 }
 /* section_3 */
 
@@ -262,7 +264,7 @@ footer > #footer1 > #sns{
 }
 /* footer */
 
-/* 레이아웃 추가 재구성 */
+/* �젅�씠�븘�썐 異붽� �옱援ъ꽦 */
 [class*='con_title']{
     padding-bottom: 1.25rem;
     /* 20px; */
@@ -283,9 +285,9 @@ footer{
     top: 60px;
 }
 
-/*-----------------------------------------*/
-/* 버튼 & 기능 */
-/* 마이페이지 */
+
+/* 踰꾪듉 & 湲곕뒫 */
+/* 留덉씠�럹�씠吏� */
 
 .dropdown_content_before_logging_in{
     top: 40px;
@@ -298,9 +300,9 @@ footer{
     left: 45px;
 }
 
-/* 검색 */
-.search_wrap, #searchbg{
-    top: -30rem;/*48px 3.5rem이 도착점 시작점은 -600px  >  3rem  -30rem*/
+/* 寃��깋 */
+.search_wrap{
+    top: -30rem;/*48px 3.5rem�씠 �룄李⑹젏 �떆�옉�젏�� -600px  >  3rem  -30rem*/
 }
 .search_wrap > .search{
     width: 25rem;
@@ -314,4 +316,4 @@ footer{
 .search_wrap > .search > .search_img > ul{
     display: none;
 }
-/* 버튼 & 기능 */
+/* 踰꾪듉 & 湲곕뒫 */

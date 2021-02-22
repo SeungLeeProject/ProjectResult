@@ -12,9 +12,6 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
 	@RequestMapping(value = "index")
 	public String index(Locale locale) {
 		logger.info("Welcome home! The client locale is {}.", locale);
@@ -22,4 +19,10 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value = "login")
+	public String login(Locale locale) {
+		logger.info("Welcome login! The client locale is {}.", locale);
+		
+		return "login";
+	}
 }

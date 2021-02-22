@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/resources/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/resources/css/fixedlayout.css" type="text/css" />
     <link rel="stylesheet" href="/resources/css/desktop_1401_1670px.css" media="(min-width:1401px) and (max-width:1670px)" />
     <link rel="stylesheet" href="/resources/css/desktop_1321_1400px.css" media="(min-width:1321px) and (max-width:1400px)" />
     <link rel="stylesheet" href="/resources/css/laptop_1025_1320px.css" media="(min-width:1025px) and (max-width:1320px)" />
@@ -21,26 +22,32 @@
     <link rel="stylesheet" href="/resources/css/mobile_000_769px.css" media="(max-width:769px)" />
     <script src="/resources/js/jquery-3.5.1.min.js" type="text/javascript" text="javascript"></script>
     <script src="/resources/js/aside.js" type="text/javascript" text="javascript"></script>
+    <script src="/resources/js/header.js" type="text/javascript" text="javascript"></script>
 </head>
 
 <body>
-    <div id="wrap"><!--1. 전체를 감싸는 (#wrap)-->
-
+    <!-- 1. #wrap -->
+    <div id="wrap">
         <!-- header -->
-        <div id="header_all_wrap"><!--2. 모든 헤더를 감싸는 (#header_all_wrap)-->
-            <div id="header_fixed"></div><!--3. 좌측 고정 여백 공간 (#header_fixed)-->
-            <div id="header_wrap"><!--3. 헤더 영역만을 감싸는 (#header_wrap)-->
-                <div class="margin_L"></div><!--4-1 .margin_L-->
-
-                <header><!--4-2. header-->
+        <!-- 2. #wrap > #header_all_wrap -->
+        <div id="header_all_wrap">
+            <!-- 3. #wrap > #header_all_wrap > #header_fixed -->
+            <div id="header_fixed"></div>
+            <!-- 3. #wrap > #header_all_wrap > #header_wrap -->
+            <div id="header_wrap">
+                <!-- 4-1 #wrap > #header_all_wrap > #header_wrap > .margin_L -->
+                <div class="margin_L"></div>
+                <!-- 4-2. #wrap > #header_all_wrap > #header_wrap > header -->
+                <header>
+                    <!-- 5-1. header > #logo -->
                     <div id="logo">
                         <h1>
-                            <a href="#">
-                                <img src="/resources/image/logo/only-home-logo.png" alt="">
+                            <a href="/index">
+                                <img src="/resources/images/logo/only-home-logo.png" alt="">
                             </a>
                         </h1>
                     </div>
-
+                    <!-- 5-2. header > nav -->
                     <nav>
                         <ul>
                             <li>
@@ -75,38 +82,41 @@
                             </li>
                         </ul>
                     </nav>
-
+                    <!-- 5-3. header > #icon -->
                     <div id="icon">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li><a href="#"></a></li>
+                            <li class="language"></li>
+                            <li class="searchbtn"></li>
+                            <li class="writingbtn"><a href="#"></a></li>
                             <li class="mypage_dropbox">
-                                <div class="mypagebtn"></div>
                                 <div class="dropdown_content_before_logging_in">
-                                    <a href="#">로그인</a>
-                                    <a href="#">회원가입</a>
+                                    <a class="mypagenb_1" href="/login">로그인</a>
+                                    <a class="mypagenb_2" href="#">회원가입</a>
                                 </div>
                                 <div class="dropdown_content_after_logging_in">
-                                    <a href="#">마이페이지</a>
-                                    <a href="#">구독관리</a>
-                                    <a href="#">프로필 설정</a>
-                                    <a href="#">로그아웃</a>
+                                    <a class="mypagenb_3" href="/login">마이페이지</a>
+                                    <a class="mypagenb_4" href="#">구독관리</a>
+                                    <a class="mypagenb_5" href="#">프로필 설정</a>
+                                    <a class="mypagenb_6" href="#">로그아웃</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
+                    <!-- 5-*. header > 반응형 메뉴 탭 -->
                     <div class="reactive_menu_wrap">
                         <div class="reactive_menu_icon"><p>Menu</p></div>
                         <div class="reactive_menu_close_icon"></div>
                     </div>
                 </header>
 
-                <div class="margin_R"></div><!--4-3 .margin_R-->
+                <!--4-3 #wrap > #header_all_wrap > #header_wrap > .margin_R-->
+                <div class="margin_R"></div>
             </div>
         </div>
-        <!--Search-->
+        <!-- Search -->
+        <!-- 2. #wrap > .search_wrap -->
         <div class="search_wrap">
+            <!-- 3. #wrap > .search_wrap > .search -->
             <div class="search">
                 <h2>어떤 취미를 찾으시나요?</h2>
                 <div class="searchbox">
@@ -148,34 +158,38 @@
                 </div>
             </div>
         </div>
+        <!-- 2. #wrap > #searchbg -->
         <div id="searchbg"></div>
-        <!--Search-->
+        <!-- Search -->
         <!-- header -->
 
         <!-- con -->
-        <div id="con_all_wrap"><!--2. 모든 본문 전체를 감싸는 (#con_all_wrap)-->
-            <div id="con_fixed"></div><!--3. 좌측 고정 여백 공간 (#con_fixed) 과 본문 영역만을 감싸는 (#con_wrap)-->
+        <!-- 2. #wrap > #con_all_wrap -->
+        <div id="con_all_wrap">
+            <!--3. #wrap > #con_all_wrap > #con_fixed -->
+            <div id="con_fixed"></div>
+            <!--3. #wrap > #con_all_wrap > #con_wrap -->
             <div id="con_wrap">
                 <!-- section_1 -->
-                <!-- 4. section_1 > title -->
+                <!-- 4. #con_wrap > #con_1_wrap -->
                 <section id="con_1_wrap">
+                    <!-- 5. #con_wrap > #con_1_wrap > .con_title_1 -->
                     <div class="con_title_1">
                         <h3>Recommended Hobby</h3>
                         <h4>취미를 추천해드립니다</h4>
                     </div>
-
-                    <!-- 4. section_1 > article.con1 -->
+                    <!-- 5. #con_wrap > #con_1_wrap > #con_1 -->
                     <article id="con_1">
-                        <!-- 5. article.con1안에 들어가는 왼쪽 여백 & 본문 & 오른쪽 여백 (.margin_L & article & .margin_R) -->
-                        <div class="margin_L"><!--5-1 .margin_L-->
+                        <!-- 6. #con_wrap > #con_1_wrap > #con_1 > .margin_L -->
+                        <div class="margin_L">
                             <div class="controls_12">
                                 <span id="prev"><i></i></span>
                             </div>
                         </div>
-
-                        <div id="slide_1"><!--5-2 본문.1-->
-                            <div id="slidewrap"><!--보이는 영역-->
-                                <ul class="slidelist clearfix"><!--리스트 정렬 영역-->
+                        <!-- 6. #con_wrap > #con_1_wrap > #con_1 > #slide_1 -->
+                        <div id="slide_1">
+                            <div id="slidewrap"><!-- 보이는 영역 -->
+                                <ul class="slidelist clearfix"><!-- 리스트 정렬 영역 -->
                                     <li>
                                         <a href="#">
                                             <span class="con_1_textbox">
@@ -184,7 +198,7 @@
                                                 <p>Korean cuisine</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-1.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-1.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -194,7 +208,7 @@
                                                 <p>Baking</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-2.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-2.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -205,7 +219,7 @@
                                                 <p>Home Cafe, <br/>Coffee</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-3.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-3.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -215,7 +229,7 @@
                                                 <p>Craft</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-4.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-4.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -225,7 +239,7 @@
                                                 <p>Pottery</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-5.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-5.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -235,7 +249,7 @@
                                                 <p>Music</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-6.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-6.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -245,7 +259,7 @@
                                                 <p>Study</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-7.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-7.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -255,7 +269,7 @@
                                                 <p>Reading</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-8.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-8.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -265,7 +279,7 @@
                                                 <p>Pet food</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-9.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-9.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -275,21 +289,20 @@
                                                 <p>Petware</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-10.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-10.png" alt="">
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="margin_R"><!--5-3 .margin_R-->
+                        <!-- 6. #con_wrap > #con_1_wrap > #con_1 > .margin_R -->
+                        <div class="margin_R">
                             <div class="controls_12">
                                 <span id="next"><i></i></span>
                             </div>
                         </div>
                     </article>
-
-                    <!-- 4. section_1 > 하단 버튼 -->
+                    <!-- 5. #con_wrap > #con_1_wrap > #btn_1 -->
                     <div id="btn_1" class="clearfix">
                         <div class="on_1 onbtnhover"></div>
                         <div class="onbtnhover"></div>
@@ -297,46 +310,43 @@
                         <div class="onbtnhover"></div>
                         <div class="onbtnhover"></div>
                     </div>
+                    <!-- 5. #con_wrap > #con_1_wrap > 반응형때 버튼 -->
                     <div id="viewmorebtn_1">
                         <span id="viewmore"><a href="#">viewmore</a></span>
                     </div>
-
                 </section>
-                <!-- 4. section_1 -->
+                <!-- section_1 -->
 
-                <!-- 4. section_2 -->
-                <!-- 4. section_2 > title -->
+                <!-- section_2 -->
+                <!-- 4. #con_wrap > #con_2_wrap -->
                 <section id="con_2_wrap">
                     <div class="con_title_2">
                         <h3>Subscription Post</h3>
                         <h4>최신 구독 게시글을 확인하세요</h4>
                     </div>
-
-                    <!-- 4. section_2 > article.con2 -->
+                    <!-- 5. #con_wrap > #con_2_wrap > #con_2 -->
                     <article id="con_2">
-                        <!-- 5. article.con2안에 들어가는 왼쪽 여백 & 본문 & 오른쪽 여백 (.margin_L & article & .margin_R) -->
-                        <div class="margin_L"><!--5-1 .margin_L-->
+                        <!-- 6. #con_wrap > #con_2_wrap > #con_2 > .margin_L -->
+                        <div class="margin_L">
                             <div class="controls_12">
                                 <span id="prev"><i></i></span>
                             </div>
                         </div>
-
-                        <div id="slide_2"><!--5-2 본문.1-->
-                            <div id="slide_2_wrap"><!--보이는 영역-->
-                                <ul class="slide_2_list clearfix"><!--리스트 정렬 영역-->
+                        <!-- 6. #con_wrap > #con_2_wrap > #con_2 > #slide_2 -->
+                        <div id="slide_2">
+                            <div id="slide_2_wrap"><!-- 보이는 영역 -->
+                                <ul class="slide_2_list clearfix"><!-- 리스트 정렬 영역 -->
                                     <!-- 리스트1 -->
                                     <li class="con_2_line">
                                         <div class="con_2_Categories_1"><!--여기-->
                                             <a href="#"><h1>COOKING</h1></a>
                                         </div>
-
                                         <div class="con_2_1_title_1"><!--여기-->
                                             <a href="#">
                                                 <h2>숙성 없이 맛있는<br />
                                                 마들랭 만들기</h2>
                                             </a>
                                         </div>
-
                                         <div class="con_2_user_1"><!--여기-->
                                             <a href="#"><div class="userimg"></div></a>
                                             <div class="usernamebox">
@@ -344,21 +354,17 @@
                                                 <p>최찬식</p>
                                             </div>
                                         </div>
-                                        
                                         <div class="con_2_imgbox_1"><a href="#"></a></div><!--여기-->
-                                        
                                         <div class="con_2_attention_1"><!--여기-->
                                             <div class="con_2_1_view">
                                                 <h4>조회수</h4>
                                                 <p>1100</p>
                                             </div>
-
                                             <div class="con_2_1_other">
                                                 <div class="con_2_1_comments">
                                                     <i></i>
                                                     <p>326</p>
                                                 </div>
-
                                                 <div class="con_2_1_like">
                                                     <i></i>
                                                     <p>148</p>
@@ -372,35 +378,29 @@
                                         <div class="con_2_Categories_2"><!--여기-->
                                             <a href="#"><h1>COOKING</h1></a>
                                         </div>
-
                                         <div class="con_2_1_title_2"><!--여기-->
                                             <a href="#">
                                                 <h2>플레인 / 초코 스콘 만들기</h2>
                                             </a>
                                         </div>
-
                                         <div class="con_2_user_2"><!--여기-->
                                             <a href="#"><div class="userimg"></div></a>
                                             <div class="usernamebox">
                                                 <h4>Allaboutstudio</h4>
                                                 <p>올어바웃 스튜디오</p>
                                             </div>
-                                        </div>
-                                        
-                                        <div class="con_2_imgbox_2"><a href="#"></a></div><!--여기-->
-                                        
+                                        </div> 
+                                        <div class="con_2_imgbox_2"><a href="#"></a></div><!--여기-->  
                                         <div class="con_2_attention_2"><!--여기-->
                                             <div class="con_2_1_view">
                                                 <h4>조회수</h4>
                                                 <p>1100</p>
                                             </div>
-
                                             <div class="con_2_1_other">
                                                 <div class="con_2_1_comments">
                                                     <i></i>
                                                     <p>326</p>
                                                 </div>
-
                                                 <div class="con_2_1_like">
                                                     <i></i>
                                                     <p>148</p>
@@ -414,14 +414,12 @@
                                         <div class="con_2_Categories_3"><!--여기-->
                                             <a href="#"><h1>ART</h1></a>
                                         </div>
-
                                         <div class="con_2_1_title_3"><!--여기-->
                                             <a href="#">
                                                 <h2>감성적인 수채화<br />
                                                 그림 그리기</h2>
                                             </a>
                                         </div>
-
                                         <div class="con_2_user_3"><!--여기-->
                                             <a href="#"><div class="userimg"></div></a>
                                             <div class="usernamebox">
@@ -429,21 +427,17 @@
                                                 <p>하루아트</p>
                                             </div>
                                         </div>
-                                        
-                                        <div class="con_2_imgbox_3"><a href="#"></a></div><!--여기-->
-                                        
+                                        <div class="con_2_imgbox_3"><a href="#"></a></div><!--여기--> 
                                         <div class="con_2_attention_3"><!--여기-->
                                             <div class="con_2_1_view">
                                                 <h4>조회수</h4>
                                                 <p>1100</p>
                                             </div>
-
                                             <div class="con_2_1_other">
                                                 <div class="con_2_1_comments">
                                                     <i></i>
                                                     <p>326</p>
                                                 </div>
-
                                                 <div class="con_2_1_like">
                                                     <i></i>
                                                     <p>148</p>
@@ -457,13 +451,11 @@
                                         <div class="con_2_Categories_4"><!--여기-->
                                             <a href="#"><h1>SPORTS</h1></a>
                                         </div>
-
                                         <div class="con_2_1_title_4"><!--여기-->
                                             <a href="#">
                                                 <h2>홈헬스로 어깨근육 만들기</h2>
                                             </a>
                                         </div>
-
                                         <div class="con_2_user_4"><!--여기-->
                                             <a href="#"><div class="userimg"></div></a>
                                             <div class="usernamebox">
@@ -471,21 +463,17 @@
                                                 <p>홈헬스트레이너</p>
                                             </div>
                                         </div>
-                                        
                                         <div class="con_2_imgbox_4"><a href="#"></a></div><!--여기-->
-                                        
                                         <div class="con_2_attention_4"><!--여기-->
                                             <div class="con_2_1_view">
                                                 <h4>조회수</h4>
                                                 <p>1100</p>
                                             </div>
-
                                             <div class="con_2_1_other">
                                                 <div class="con_2_1_comments">
                                                     <i></i>
                                                     <p>326</p>
                                                 </div>
-
                                                 <div class="con_2_1_like">
                                                     <i></i>
                                                     <p>148</p>
@@ -499,14 +487,12 @@
                                         <div class="con_2_Categories_5"><!--여기-->
                                             <a href="#"><h1>SPORTS</h1></a>
                                         </div>
-
                                         <div class="con_2_1_title_5"><!--여기-->
                                             <a href="#">
                                                 <h2>혼자서 즐길 수 있는<br />
                                                     라테스민턴</h2>
                                             </a>
                                         </div>
-
                                         <div class="con_2_user_5"><!--여기-->
                                             <a href="#"><div class="userimg"></div></a>
                                             <div class="usernamebox">
@@ -514,21 +500,17 @@
                                                 <p>홈헬스트레이너</p>
                                             </div>
                                         </div>
-                                        
                                         <div class="con_2_imgbox_5"><a href="#"></a></div><!--여기-->
-                                        
                                         <div class="con_2_attention_5"><!--여기-->
                                             <div class="con_2_1_view">
                                                 <h4>조회수</h4>
                                                 <p>1100</p>
                                             </div>
-
                                             <div class="con_2_1_other">
                                                 <div class="con_2_1_comments">
                                                     <i></i>
                                                     <p>326</p>
                                                 </div>
-
                                                 <div class="con_2_1_like">
                                                     <i></i>
                                                     <p>148</p>
@@ -540,35 +522,37 @@
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="margin_R"><!--5-3 .margin_R-->
+                        <!-- 6. #con_wrap > #con_2_wrap > #con_2 > .margin_R -->
+                        <div class="margin_R">
                             <div class="controls_12">
                                 <span id="next"><i></i></span>
                             </div>
                         </div>
                     </article>
-
-                    <!-- 4. section_2 > 하단 버튼 -->
+                    <!-- 5. #con_wrap > #con_2_wrap > #viewmorebtn -->
                     <div id="viewmorebtn">
                         <span id="viewmore"><a href="#">viewmore</a></span>
                     </div>
                 </section>
-                <!-- 4. section_2 -->
+                <!-- section_2 -->
 
-                <!-- 4. section_3 -->
+                <!-- section_3 -->
+                <!-- 4. #con_wrap > #con_3_wrap -->
                 <section id="con_3_wrap">
+                    <!-- 5. #con_wrap > #con_3_wrap > .con_title_3 -->
                     <div class="con_title_3">
                         <h3>New Hobby</h3>
                         <h4>새로운 취미를 알려드립니다</h4>
                     </div>
-
+                    <!-- 5. #con_wrap > #con_3_wrap > #con_3 -->
                     <article id="con_3">
+                        <!-- 6. #con_wrap > #con_3_wrap > #con_3 > .margin_L -->
                         <div class="margin_L">
                             <div class="controls_12">
                                 <span id="prev"><i></i></span>
                             </div>
                         </div>
-
+                        <!-- 6. #con_wrap > #con_3_wrap > #con_3 > #slide_3 -->
                         <div id="slide_3">
                             <div id="slidewrap_3"><!--보이는 부분-->
                                 <ul class="slidelist_3 clearfix"><!--리스트 영역-->
@@ -581,7 +565,6 @@
                                             <div class="bg-3"></div>
                                         </a>
                                     </li>
-
                                     <li class="bigsize_img_3">
                                         <a href="#">
                                             <span class="con_3_textbox">
@@ -591,7 +574,6 @@
                                             <div class="bg-3"></div>
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="#">
                                             <span class="con_3_textbox">
@@ -601,7 +583,6 @@
                                             <div class="bg-3"></div>
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="#">
                                             <span class="con_3_textbox">
@@ -612,7 +593,6 @@
                                             <div class="bg-3"></div>
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="#">
                                             <span class="con_3_textbox">
@@ -623,7 +603,6 @@
                                             <div class="bg-3"></div>
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="#">
                                             <span class="con_3_textbox">
@@ -637,64 +616,70 @@
                                 </ul>
                             </div>
                         </div>
-
+                        <!-- 6. #con_wrap > #con_3_wrap > #con_3 > .margin_R -->
                         <div class="margin_R">
                             <div class="controls_12">
                                 <span id="next"><i></i></span>
                             </div>
                         </div>
                     </article>
-
+                    <!-- 5. #con_wrap > #con_3_wrap > #btn_3 -->
                     <div id="btn_3" class="clearfix">
                         <div class="on_3 onbtnhover"></div>
                         <div class="onbtnhover"></div>
                         <div class="onbtnhover"></div>
                     </div>
                 </section>
-                <!-- con_3 -->  
+                <!-- section_3 -->
+                <!-- footer -->
+                <!-- 2. #wrap > footer -->
+                <footer>
+                    <!-- 3. footer > #footer1 -->
+                    <div id="footer1">
+                        <!-- 4. footer > #footer1 > #footerlogo -->
+                        <div id="footerlogo">
+                            <img src="/resources/images/logo/only-home-logo.png" alt="">
+                        </div>
+                        <!-- 4. footer > #footer1 > #info_box -->
+                        <div id="info_box">
+                            <!-- 5. footer > #footer1 > #info_box > #info -->
+                            <div id="info">
+                                <p>승리프로젝트_온리홈</p>
+                                <span class="line"></span>
+                                <p>프로젝트 참여 인원 : 송근영/신지현/최찬식</p>
+                                <span class="line"></span>
+                                <p>경기도 고양특별시 일산동구 장항동 740-1 4층</p>
+                            </div>
+                            <!-- 5.footer > #footer1 > #info_box > #leader -->
+                            <p id="leader">팀장 : 최찬식</p>
+                        </div>
+                        <!-- 4.footer > #footer1 > #sns -->
+                        <div id="sns">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- 3. footer > #footer2 -->
+                    <div id="footer2">
+                        <p>Copyright ⓒ by seungleeyouth.</p>
+                    </div>
+                </footer>
+                <!-- footer -->
             </div>
         </div>
-        <!-- footer -->
-        <footer>
-            <div id="footer1">
-                <div id="footerlogo">
-                    <img src="/resources/image/logo/only-home-logo.png" alt="">
-                </div>
-                <div id="info_box">
-                    <div id="info">
-                        <p>승리프로젝트_온리홈</p>
-                        <span class="line"></span>
-                        <p>프로젝트 참여 인원 : 송근영/신지현/최찬식</p>
-                        <span class="line"></span>
-                        <p>경기도 고양특별시 일산동구 장항동 740-1 4층</p>
-                    </div>
-                    <p id="leader">팀장 : 최찬식</p>
-                </div>
-
-                <div id="sns">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <div id="footer2">
-                <p>Copyright ⓒ by seungleeyouth.</p>
-            </div>
-        </footer>
-        <!-- footer -->
         <!-- con -->
+        
     </div>
     <!-- aside -->
     <aside id="aside_wrap">
         <div id="aside_1">
             <div id="alogo">
-                <img src="/resources/image/logo/logo-white.png" alt="#">
-                <!--logo-->
+                <img src="/resources/images/logo/logo-white.png" alt="#">
             </div>
         </div>
-
         <div id="aside_2">
             <ul>
                 <li>
@@ -707,7 +692,6 @@
                     <i></i>
                 </li>
             </ul>
-
             <div id="topbt">
                 <i></i>
             </div>
