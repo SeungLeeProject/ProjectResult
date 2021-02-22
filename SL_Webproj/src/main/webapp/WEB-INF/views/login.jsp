@@ -204,7 +204,7 @@
                     <div id="footer1">
                         <!-- 4. footer > #footer1 > #footerlogo -->
                         <div id="footerlogo">
-                            <img src="/resources/image/logo/only-home-logo.png" alt="">
+                            <img src="/resources/images/logo/only-home-logo.png" alt="">
                         </div>
                         <!-- 4. footer > #footer1 > #info_box -->
                         <div id="info_box">
@@ -243,12 +243,12 @@
     <aside id="aside_wrap">
         <div id="aside_1">
             <div id="alogo">
-                <img src="/resources/image/logo/logo-white.png" alt="#">
+                <img src="/resources/images/logo/logo-white.png" alt="#">
             </div>
         </div>
         <div id="aside_2">
             <div id="home">
-                <a href="#">
+                <a href="/index">
                 </a>
             </div>
         </div>

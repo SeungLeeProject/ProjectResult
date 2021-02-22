@@ -57,7 +57,7 @@ body{font-size: 1rem;}
 #header_wrap > header > nav{
     height: 100vh;
     width: 100%;
-    display: none;/*메뉴 버튼을 눌렀을 때 fade in*/
+    display: none;/*硫붾돱 踰꾪듉�쓣 �닃���쓣 �븣 fade in*/
 }
 #header_wrap > header > nav li{
     display: block;
@@ -108,10 +108,10 @@ body{font-size: 1rem;}
     right: 0;
     top: 32px;
     transform: translateY(-50%);
-    background-image: url("image/icon/menu_close.png");
+    background-image: url("/resources/images/icon/menu_close.png");
     cursor: pointer;
     border: 1px solid #191919;
-    display: none;/*메뉴창이 뜨면 fade in*/
+    display: none;/*硫붾돱李쎌씠 �쑉硫� fade in*/
 }
 
 #con_all_wrap > #con_wrap{
@@ -145,10 +145,10 @@ body{font-size: 1rem;}
     display: none;
 }
 #con_1_wrap > #btn_1{
-    display: none;/*여기서는 fade out*/
+    display: none;/*�뿬湲곗꽌�뒗 fade out*/
 }
 #con_1_wrap > #viewmorebtn_1{
-    display: inline-block;/*여기서 fade in*/
+    display: inline-block;/*�뿬湲곗꽌 fade in*/
 }
 
 
@@ -194,10 +194,10 @@ body{font-size: 1rem;}
 }
 #con_3_wrap > #btn_3{
     display: none;
-    /*여기서는 fade out*/
+    /*�뿬湲곗꽌�뒗 fade out*/
 }
 #con_3_wrap > #viewmorebtn_3{
-    display: block;/*여기서 fade in*/
+    display: block;/*�뿬湲곗꽌 fade in*/
 }
 
 /* -------------------------------------------------------------------------- */
@@ -263,7 +263,7 @@ footer > #footer1 > #sns{
     left: 45px;
 }
 .search_wrap, #searchbg{
-    top: -30rem;/*48px 3rem이 도착점 시작점은 -600px  >  3rem  -30rem*/
+    top: -30rem;/*48px 3rem�씠 �룄李⑹젏 �떆�옉�젏�� -600px  >  3rem  -30rem*/
 }
 .search_wrap > .search{
     width: 25rem;

@@ -1,8 +1,8 @@
-/* 전체적인 레이아웃 */
+/* �쟾泥댁쟻�씤 �젅�씠�븘�썐 */
 html{font-size: 16px;}
 body{font-size: 1rem;}
 
-/* 레이아웃 재구성 */
+/* �젅�씠�븘�썐 �옱援ъ꽦 */
 #header_all_wrap > #header_fixed{
     display: none;
 }
@@ -18,9 +18,9 @@ body{font-size: 1rem;}
 [class*='margin']{
     display: none;
 }
-/* 레이아웃 재구성 */
+/* �젅�씠�븘�썐 �옱援ъ꽦 */
     /* aside */
-/* 전체적인 레이아웃 */
+/* �쟾泥댁쟻�씤 �젅�씠�븘�썐 */
 #con_all_wrap > #con_wrap{
     width: 100%;
     padding: 0 40px 0 40px;
@@ -40,7 +40,7 @@ body{font-size: 1rem;}
     top: 65px;
     background-color: #fff;
     display: none;
-    /*메뉴 버튼을 눌렀을 때 fade in*/
+    /*硫붾돱 踰꾪듉�쓣 �닃���쓣 �븣 fade in*/
 }
 #header_wrap > header > nav li{
     display: block;
@@ -76,7 +76,7 @@ body{font-size: 1rem;}
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("../image/icon/menu.png");
+    background-image: url("/resources/images/icon/menu.png");
     background-size: 100%;
 }
 .reactive_menu_icon > p{
@@ -102,7 +102,7 @@ body{font-size: 1rem;}
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("../image/icon/menu_close.png");
+    background-image: url("/resources/images/icon/menu_close.png");
     cursor: pointer;
     border: 1px solid #191919;
 }
@@ -135,10 +135,10 @@ body{font-size: 1rem;}
     display: none;
 }
 #con_1_wrap > #btn_1{
-    display: none;/*여기서는 fade out*/
+    display: none;/*�뿬湲곗꽌�뒗 fade out*/
 }
 #con_1_wrap > #viewmorebtn_1{
-    display: block;/*여기서 fade in*/
+    display: block;/*�뿬湲곗꽌 fade in*/
 }
 
 #con_1 > #slide_1 > #slidewrap li .con_1_textbox > h4{
@@ -207,7 +207,7 @@ body{font-size: 1rem;}
 }
 #con_3_wrap > #btn_3{
     display: none;
-    /*여기서는 fade out*/
+    /*�뿬湲곗꽌�뒗 fade out*/
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li{
     height: 300px;
@@ -216,8 +216,8 @@ body{font-size: 1rem;}
 
 
 
-/* 버튼 & 기능 */
-/* 마이페이지 */
+/* 踰꾪듉 & 湲곕뒫 */
+/* 留덉씠�럹�씠吏� */
 .search_wrap > .search{
     left: 50%;
 }
@@ -231,7 +231,7 @@ body{font-size: 1rem;}
     transform: translateX(-100%);
     left: 65px;
 }
-/* 검색 */
+/* 寃��깋 */
 .search_wrap > .search{
     width: 30rem;
 }
@@ -244,7 +244,7 @@ body{font-size: 1rem;}
 .search_wrap > .search > .search_img > ul{
     display: none;
 }
-/* 버튼 & 기능 */
+/* 踰꾪듉 & 湲곕뒫 */
 
 /* footer */
 footer{
