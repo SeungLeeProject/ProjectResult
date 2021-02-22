@@ -31,9 +31,11 @@ body{font-size: 1rem;}
     /* aside */
 /* 전체적인 레이아웃 */
 
+/* header */
 #header_wrap > header > nav li a{
     padding: 0.75rem 0.75rem;
 }
+/* header */
 
 /* section_1 */
 #con_1 > #slide_1 > #slidewrap li .con_1_textbox > h4{
@@ -84,3 +86,4 @@ body{font-size: 1rem;}
 footer{
     top: 70px;
 }
+/* footer */
