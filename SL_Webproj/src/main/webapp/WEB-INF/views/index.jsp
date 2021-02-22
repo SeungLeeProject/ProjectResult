@@ -36,7 +36,7 @@
                     <div id="logo">
                         <h1>
                             <a href="#">
-                                <img src="/resources/image/logo/only-home-logo.png" alt="">
+                                <img src="/resources/images/logo/only-home-logo.png" alt="">
                             </a>
                         </h1>
                     </div>
@@ -184,7 +184,7 @@
                                                 <p>Korean cuisine</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-1.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-1.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -194,7 +194,7 @@
                                                 <p>Baking</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-2.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-2.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -205,7 +205,7 @@
                                                 <p>Home Cafe, <br/>Coffee</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-3.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-3.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -215,7 +215,7 @@
                                                 <p>Craft</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-4.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-4.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -225,7 +225,7 @@
                                                 <p>Pottery</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-5.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-5.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -235,7 +235,7 @@
                                                 <p>Music</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-6.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-6.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -245,7 +245,7 @@
                                                 <p>Study</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-7.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-7.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -255,7 +255,7 @@
                                                 <p>Reading</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-8.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-8.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -265,7 +265,7 @@
                                                 <p>Pet food</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-9.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-9.png" alt="">
                                         </a>
                                     </li>
                                     <li>
@@ -275,7 +275,7 @@
                                                 <p>Petware</p>
                                             </span>
                                             <div class="bg"></div>
-                                            <img src="/resources/image/section-1-img/1-10.png" alt="">
+                                            <img src="/resources/images/section-1-img/1-10.png" alt="">
                                         </a>
                                     </li>
                                 </ul>
@@ -658,7 +658,7 @@
         <footer>
             <div id="footer1">
                 <div id="footerlogo">
-                    <img src="/resources/image/logo/only-home-logo.png" alt="">
+                    <img src="/resources/images/logo/only-home-logo.png" alt="">
                 </div>
                 <div id="info_box">
                     <div id="info">
@@ -690,7 +690,7 @@
     <aside id="aside_wrap">
         <div id="aside_1">
             <div id="alogo">
-                <img src="/resources/image/logo/logo-white.png" alt="#">
+                <img src="/resources/images/logo/logo-white.png" alt="#">
                 <!--logo-->
             </div>
         </div>
