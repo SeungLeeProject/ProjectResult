@@ -534,7 +534,7 @@ footer > #footer1 > #sns div:nth-child(2){
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(3){
-    background-image: url(".../images/icon/footer-icon-sns-3.png");
+    background-image: url("../images/icon/footer-icon-sns-3.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(4){
