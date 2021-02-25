@@ -111,14 +111,15 @@ body{
 }
 .reactive_menu_close_icon{
     display: none;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     right: 0;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
     background-image: url("../images/icon/menu_close.png");
+    background-size: 100%;
     cursor: pointer;
     border: 1px solid #191919;
 }
@@ -224,7 +225,8 @@ body{
     float: left;
     width: 48%;
     margin-right: 4%;
-    height: 250px;
+    height: 15.625rem;
+    /* 250px; */
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li.bigsize_img_3{
     width: 48%;
@@ -282,7 +284,8 @@ footer > #footer1 > #sns{
     /* 30px; */
 }
 footer{
-    top: 60px;
+    top: 3.75rem;
+    /* 60px; */
 }
 
 

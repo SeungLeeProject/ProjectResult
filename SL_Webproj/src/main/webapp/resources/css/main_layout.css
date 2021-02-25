@@ -249,7 +249,8 @@
     /* 40px; */
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 20rem;
+    /* 400px; */
     box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.16);
     /* 0px 3px 6px rgba(0, 0, 0, 0.16) */
 }
@@ -523,7 +524,8 @@
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li{
     display: inline-block;
     width: 23%;
-    height: 400px;
+    height: 20rem;
+    /* 400px; */
     margin-right: 2%;
     position: relative;
 }

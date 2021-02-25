@@ -185,46 +185,58 @@ body{font-size: 1rem;}
 }
 /*로그인 전*/
 .dropdown_content_before_logging_in{
-    width: 150px;
+    width: 7.5rem;
+    /* 150px; */
     transform: translateX(-50%);
-    left: 10px;
-    top: 50px;
+    left: 0.5rem;
+    /* 10px; */
+    top: 2.5rem;
+    /* 50px; */
     position: absolute;
     background-color: #fff;
     border: 1px solid #DBDBDB;
-    padding-bottom: 12px;
+    padding-bottom: 0.6rem;
+    /* 12px; */
     display: none;
 }
 .dropdown_content_before_logging_in a{
     font-family: 'Noto Sans KR', sans-serif;
     color: #191919;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.75rem;
+    /* 15px; */
     display: block;
     text-align: center;
-    padding: 20px 40px 10px 40px;
+    padding: 1rem 2rem 0.5rem 2rem;
+    /* 20px 40px 10px 40px; */
 }
 /*로그인 전*/
 /*로그인 후*/
 .dropdown_content_after_logging_in{
-    width: 150px;
+    width: 7.5rem;
+    /* 150px; */
     transform: translateX(-50%);
-    left: 10px;
-    top: 50px;
+    left: 0.5rem;
+    /* 10px; */
+    top: 2.5rem;
+    /* 50px; */
     position: absolute;
     background-color: #fff;
     border: 1px solid #DBDBDB;
-    padding-bottom: 12px;
+    padding-bottom: 0.6rem;
+    /* 12px; */
     display: none;
 }
 .dropdown_content_after_logging_in a{
     font-family: 'Noto Sans KR', sans-serif;
     color: #191919;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.75rem;
+    /* 15px; */
     display: block;
     text-align: center;
-    padding: 20px 40px 10px 40px;
+    padding: 1rem 2rem 0.5rem 2rem;
+    /* 20px 40px 10px 40px; */
 }
 [class*='mypagenb']:hover{
     color: #F16122;
@@ -438,27 +450,27 @@ body{font-size: 1rem;}
 /* footer */
 footer{
     width: 100%;
-    height: 22.4rem;
-    /* 448px; */
+    height: 21rem;
+    /* 420px; */
     background-color:#F8F8FA;
     /* position: relative; */
 }
 footer > #footer1{
     width: 100%;
-    height: 17.5rem;
+    height: 16rem;
     /* 350px; */
     border-bottom: 1px solid #DBDBDB;
     position: relative;
 }
 footer > #footer1 > #footerlogo{
-    width:9.3rem;
+    width:6.3rem;
     /* 186px; */
-    height:4.2rem;
+    height:3rem;
     /* 84px; */
     position: absolute;
     left:50%;
-    top: 3rem;
-    /* 60px; */
+    top: 2rem;
+    /* 40px; */
     transform: translateX(-50%);
 }
 footer > #footer1 > #footerlogo > img{
@@ -467,8 +479,7 @@ footer > #footer1 > #footerlogo > img{
 footer > #footer1 > #info_box{
     position: relative;
     width: 100%;
-    height: 10px;
-    top: 9.2rem;
+    top: 7rem;
 }
 footer > #footer1 > #info_box > #info{
     position: absolute;
@@ -509,8 +520,8 @@ footer > #footer1 > #info_box > #leader{
 footer > #footer1 > #sns{
     position: absolute;
     left:50%;
-    top: 13.5rem;
-    /* 270px; */
+    top: 12rem;
+    /* 240px; */
     transform: translateX(-50%);
 }
 footer > #footer1 > #sns div{
