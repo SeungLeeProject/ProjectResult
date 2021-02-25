@@ -66,8 +66,7 @@ $(function(){
                     $('.mypage_dropbox').css("background-image","url('../../resources/images/icon/header-icon-5-1.png')");
                 }
             });
-        }
-        else if($(window).width() > 1025){
+        }else if($(window).width() > 1025){
             $("nav").fadeIn();
         }
     });
