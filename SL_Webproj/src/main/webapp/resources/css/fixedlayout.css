@@ -154,23 +154,23 @@ body{font-size: 1rem;}
 }
 #header_wrap > header > #icon li:nth-child(1){
     margin-left: 0;
-    background-image: url("/resources/images/icon/header-icon-2-1.png");
+    background-image: url("../images/icon/header-icon-2-1.png");
     background-size: 100%;
     transition: all .2s;
 }
 #header_wrap > header > #icon li:nth-child(2){
-    background-image: url("/resources/images/icon/header-icon-3-1.png");
+    background-image: url("../images/icon/header-icon-3-1.png");
     background-size: 100%;
     transition: all .2s;
 }
 #header_wrap > header > #icon li:nth-child(3){
-    background-image: url("/resources/images/icon/header-icon-4-1.png");
+    background-image: url("../images/icon/header-icon-4-1.png");
     background-size: 100%;
     transition: all .2s;
 }
 #header_wrap > header > #icon li:nth-child(4){
     position: relative;
-    background-image: url("/resources/images/icon/header-icon-5-1.png");
+    background-image: url("../images/icon/header-icon-5-1.png");
     background-size: 100%;
     width: 1.25rem;
     /* 25px; */
@@ -185,46 +185,58 @@ body{font-size: 1rem;}
 }
 /*로그인 전*/
 .dropdown_content_before_logging_in{
-    width: 150px;
+    width: 7.5rem;
+    /* 150px; */
     transform: translateX(-50%);
-    left: 10px;
-    top: 50px;
+    left: 0.5rem;
+    /* 10px; */
+    top: 2.5rem;
+    /* 50px; */
     position: absolute;
     background-color: #fff;
     border: 1px solid #DBDBDB;
-    padding-bottom: 12px;
+    padding-bottom: 0.6rem;
+    /* 12px; */
     display: none;
 }
 .dropdown_content_before_logging_in a{
     font-family: 'Noto Sans KR', sans-serif;
     color: #191919;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.75rem;
+    /* 15px; */
     display: block;
     text-align: center;
-    padding: 20px 40px 10px 40px;
+    padding: 1rem 2rem 0.5rem 2rem;
+    /* 20px 40px 10px 40px; */
 }
 /*로그인 전*/
 /*로그인 후*/
 .dropdown_content_after_logging_in{
-    width: 150px;
+    width: 7.5rem;
+    /* 150px; */
     transform: translateX(-50%);
-    left: 10px;
-    top: 50px;
+    left: 0.5rem;
+    /* 10px; */
+    top: 2.5rem;
+    /* 50px; */
     position: absolute;
     background-color: #fff;
     border: 1px solid #DBDBDB;
-    padding-bottom: 12px;
+    padding-bottom: 0.6rem;
+    /* 12px; */
     display: none;
 }
 .dropdown_content_after_logging_in a{
     font-family: 'Noto Sans KR', sans-serif;
     color: #191919;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.75rem;
+    /* 15px; */
     display: block;
     text-align: center;
-    padding: 20px 40px 10px 40px;
+    padding: 1rem 2rem 0.5rem 2rem;
+    /* 20px 40px 10px 40px; */
 }
 [class*='mypagenb']:hover{
     color: #F16122;
@@ -313,7 +325,7 @@ body{font-size: 1rem;}
     /* 10px; */
     bottom: 0.5rem;
     /* 10px; */
-    background-image: url("/resources/images/icon/Search-icon-1.png");
+    background-image: url("../images/icon/Search-icon-1.png");
     background-size: 100%;
     border-style: none;
     background-color: #fff;
@@ -388,28 +400,28 @@ body{font-size: 1rem;}
 }
 .search_wrap > .search > .search_img > ul li:nth-child(1){
     margin: 0;
-    background-image: url("/resources/images/section-1-img/1-1.png");
+    background-image: url("../images/section-1-img/1-1.png");
     background-size: 130%;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 1s;
 }
 .search_wrap > .search > .search_img > ul li:nth-child(2){
-    background-image: url("/resources/images/section-1-img/1-2.png");
+    background-image: url("../images/section-1-img/1-2.png");
     background-size: 130%;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 1s;
 }
 .search_wrap > .search > .search_img > ul li:nth-child(3){
-    background-image: url("/resources/images/section-1-img/1-3.png");
+    background-image: url("../images/section-1-img/1-3.png");
     background-size: 130%;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 1s;
 }
 .search_wrap > .search > .search_img > ul li:nth-child(4){
-    background-image: url("/resources/images/section-1-img/1-4.png");
+    background-image: url("../images/section-1-img/1-4.png");
     background-size: 130%;
     background-repeat: no-repeat;
     background-position: center;
@@ -428,7 +440,7 @@ body{font-size: 1rem;}
     /* 35px; */
     background-color: #fff;
     border: 1px solid #191919;
-    background-image: url("/resources/images/icon/Search-icon-2.png");
+    background-image: url("../images/icon/Search-icon-2.png");
     background-size: 100%;
     cursor: pointer;
 }
@@ -438,27 +450,27 @@ body{font-size: 1rem;}
 /* footer */
 footer{
     width: 100%;
-    height: 22.4rem;
-    /* 448px; */
+    height: 21rem;
+    /* 420px; */
     background-color:#F8F8FA;
     /* position: relative; */
 }
 footer > #footer1{
     width: 100%;
-    height: 17.5rem;
+    height: 16rem;
     /* 350px; */
     border-bottom: 1px solid #DBDBDB;
     position: relative;
 }
 footer > #footer1 > #footerlogo{
-    width:9.3rem;
+    width:6.3rem;
     /* 186px; */
-    height:4.2rem;
+    height:3rem;
     /* 84px; */
     position: absolute;
     left:50%;
-    top: 3rem;
-    /* 60px; */
+    top: 2rem;
+    /* 40px; */
     transform: translateX(-50%);
 }
 footer > #footer1 > #footerlogo > img{
@@ -467,8 +479,7 @@ footer > #footer1 > #footerlogo > img{
 footer > #footer1 > #info_box{
     position: relative;
     width: 100%;
-    height: 10px;
-    top: 9.2rem;
+    top: 7rem;
 }
 footer > #footer1 > #info_box > #info{
     position: absolute;
@@ -509,8 +520,8 @@ footer > #footer1 > #info_box > #leader{
 footer > #footer1 > #sns{
     position: absolute;
     left:50%;
-    top: 13.5rem;
-    /* 270px; */
+    top: 12rem;
+    /* 240px; */
     transform: translateX(-50%);
 }
 footer > #footer1 > #sns div{
@@ -525,24 +536,24 @@ footer > #footer1 > #sns div{
 }
 footer > #footer1 > #sns div:nth-child(1){
     margin-left: 0;
-    background-image: url("/resources/images/icon/footer-icon-sns-1.png");
+    background-image: url("../images/icon/footer-icon-sns-1.png");
     background-size: 100%;
 }
 
 footer > #footer1 > #sns div:nth-child(2){
-    background-image: url("/resources/images/icon/footer-icon-sns-2.png");
+    background-image: url("../images/icon/footer-icon-sns-2.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(3){
-    background-image: url("/resources/images/icon/footer-icon-sns-3.png");
+    background-image: url("../images/icon/footer-icon-sns-3.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(4){
-    background-image: url("/resources/images/icon/footer-icon-sns-4.png");
+    background-image: url("../images/icon/footer-icon-sns-4.png");
     background-size: 100%;
 }
 footer > #footer1 > #sns div:nth-child(5){
-    background-image: url("/resources/images/icon/footer-icon-sns-5.png");
+    background-image: url("../images/icon/footer-icon-sns-5.png");
     background-size: 100%;
 }
 
@@ -615,28 +626,28 @@ footer > #footer2 p{
 }
 #aside_wrap > #aside_2 li:nth-child(1){
     margin-top: 0;
-    background-image: url("/resources/images/icon/aside-icon-1-1.png");
+    background-image: url("../images/icon/aside-icon-1-1.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 li:nth-child(1):hover{
-    background-image: url("/resources/images/icon/aside-icon-1-2.png");
+    background-image: url("../images/icon/aside-icon-1-2.png");
 }
 #aside_wrap > #aside_2 li:nth-child(2){
-    background-image: url("/resources/images/icon/aside-icon-2-1.png");
+    background-image: url("../images/icon/aside-icon-2-1.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 li:nth-child(2):hover{
-    background-image: url("/resources/images/icon/aside-icon-2-2.png");
+    background-image: url("../images/icon/aside-icon-2-2.png");
 }
 #aside_wrap > #aside_2 li:nth-child(3){   
-    background-image: url("/resources/images/icon/aside-icon-3-1.png");
+    background-image: url("../images/icon/aside-icon-3-1.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 li:nth-child(3):hover{
-    background-image: url("/resources/images/icon/aside-icon-3-2.png");
+    background-image: url("../images/icon/aside-icon-3-2.png");
 }
 #aside_wrap > #aside_2 > #topbt{
     width: 2rem;
@@ -648,12 +659,12 @@ footer > #footer2 p{
     /* 30px; */
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("/resources/images/icon/aside-icon-top-2.png");
+    background-image: url("../images/icon/aside-icon-top-2.png");
     background-size: 100%;
     transition: all .3s;
 }
 #aside_wrap > #aside_2 > #topbt:hover{
-    background-image: url("/resources/images/icon/aside-icon-top.png");
+    background-image: url("../images/icon/aside-icon-top.png");
     background-size: 100%;
 }
 /* aside */

@@ -72,10 +72,12 @@ body{font-size: 1rem;}
 
 /* 버튼 & 기능 */
 .dropdown_content_before_logging_in{
-    top: 45px;
+    top: 2.5rem;
+    /* 45px; */
 }
 .dropdown_content_after_logging_in{
-    top: 45px;
+    top: 2.5rem;
+    /* 45px; */
 }
 .search_wrap > .search{
     left: 55%;
@@ -84,6 +86,7 @@ body{font-size: 1rem;}
 
 /* footer */
 footer{
-    top: 70px;
+    top: 3.9rem;
+    /* 70px; */
 }
 /* footer */
