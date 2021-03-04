@@ -84,7 +84,7 @@ body{font-size: 1rem;}
     left: 0;
     top: 22px;
     transform: translateY(-50%);
-    background-image: url("image/icon/menu.png");
+    background-image: url("/resources/images/icon/menu.png");
     cursor: pointer;
     background-size: 100%;
 }

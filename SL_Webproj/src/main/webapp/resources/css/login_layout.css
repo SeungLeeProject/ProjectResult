@@ -105,7 +105,7 @@ input[type="submit"]{
     /* 50px; */
     background-color: #F16122;
     border: 1px solid #F16122;
-    background-image: url("../images/logo/login_logo.png");
+    background-image: url("/resources/images/logo/login_logo.png");
     background-repeat: no-repeat;
     background-image: 100%;
     background-position: center;
@@ -148,10 +148,10 @@ input[type="submit"]{
     /* 40px; */
     height:2rem;
     /* 40px; */
-    background-image: url("../images/icon/home_icon_1.png");
+    background-image: url("/resources/images/icon/home_icon_1.png");
     transition: .3s;
     background-size: 100%;
 }
 #aside_wrap > #aside_2 > #home a:hover{
-    background-image: url("../images/icon/home_icon_2.png");
+    background-image: url("/resources/images/icon/home_icon_2.png");
 }
