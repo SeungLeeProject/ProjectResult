@@ -1,8 +1,8 @@
-/* �쟾泥댁쟻�씤 �젅�씠�븘�썐 */
+/* 전체적인 레이아웃 */
 html{font-size: 16px;}
 body{font-size: 1rem;}
 
-/* �젅�씠�븘�썐 �옱援ъ꽦 */
+/* 레이아웃 재구성 */
 #header_all_wrap > #header_fixed{
     display: none;
 }
@@ -18,12 +18,13 @@ body{font-size: 1rem;}
 [class*='margin']{
     display: none;
 }
-/* �젅�씠�븘�썐 �옱援ъ꽦 */
+/* 레이아웃 재구성 */
     /* aside */
-/* �쟾泥댁쟻�씤 �젅�씠�븘�썐 */
+/* 전체적인 레이아웃 */
 #con_all_wrap > #con_wrap{
     width: 100%;
-    padding: 0 40px 0 40px;
+    padding: 0 2.5rem 0 2.5rem;
+    /* 0 40px 0 40px; */
 }
 
 
@@ -31,7 +32,8 @@ body{font-size: 1rem;}
 #header_wrap > header{
     width: 100%;
     flex-direction: column;
-    margin: 0 40px 0 40px;
+    margin: 0 2.5rem 0 2.5rem;
+    /* 0 40px 0 40px; */
     position: relative;
 }
 #header_wrap > header > nav{
@@ -40,7 +42,7 @@ body{font-size: 1rem;}
     top: 65px;
     background-color: #fff;
     display: none;
-    /*硫붾돱 踰꾪듉�쓣 �닃���쓣 �븣 fade in*/
+    /*메뉴 버튼을 눌렀을 때 fade in*/
 }
 #header_wrap > header > nav li{
     display: block;
@@ -55,7 +57,7 @@ body{font-size: 1rem;}
     /* display: none; */
     position: absolute;
     right: 0;
-    top: 30px;
+    top: 50%;
     transform: translateY(-50%);
 }
 .reactive_menu_wrap{
@@ -76,7 +78,7 @@ body{font-size: 1rem;}
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("/resources/images/icon/menu.png");
+    background-image: url("../images/icon/menu.png");
     background-size: 100%;
 }
 .reactive_menu_icon > p{
@@ -102,7 +104,7 @@ body{font-size: 1rem;}
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("/resources/images/icon/menu_close.png");
+    background-image: url("../images/icon/menu_close.png");
     cursor: pointer;
     border: 1px solid #191919;
 }
@@ -135,10 +137,10 @@ body{font-size: 1rem;}
     display: none;
 }
 #con_1_wrap > #btn_1{
-    display: none;/*�뿬湲곗꽌�뒗 fade out*/
+    display: none;/*여기서는 fade out*/
 }
 #con_1_wrap > #viewmorebtn_1{
-    display: block;/*�뿬湲곗꽌 fade in*/
+    display: block;/*여기서 fade in*/
 }
 
 #con_1 > #slide_1 > #slidewrap li .con_1_textbox > h4{
@@ -164,7 +166,8 @@ body{font-size: 1rem;}
     float: left;
     margin-right: 3.5%;
     display: flex;
-    height: 500px;
+    height: 31.25rem;
+    /* 500px; */
 }
 #con_2 > #slide_2 > #slide_2_wrap > .slide_2_list > .con_2_line:nth-child(5){
     display: none;
@@ -207,17 +210,18 @@ body{font-size: 1rem;}
 }
 #con_3_wrap > #btn_3{
     display: none;
-    /*�뿬湲곗꽌�뒗 fade out*/
+    /*여기서는 fade out*/
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li{
-    height: 300px;
+    height: 18.75rem;
+    /* 300px; */
 }
 /* secttion_3 */
 
 
 
-/* 踰꾪듉 & 湲곕뒫 */
-/* 留덉씠�럹�씠吏� */
+/* 버튼 & 기능 */
+/* 마이페이지 */
 .search_wrap > .search{
     left: 50%;
 }
@@ -231,7 +235,7 @@ body{font-size: 1rem;}
     transform: translateX(-100%);
     left: 65px;
 }
-/* 寃��깋 */
+/* 검색 */
 .search_wrap > .search{
     width: 30rem;
 }
@@ -244,9 +248,10 @@ body{font-size: 1rem;}
 .search_wrap > .search > .search_img > ul{
     display: none;
 }
-/* 踰꾪듉 & 湲곕뒫 */
+/* 버튼 & 기능 */
 
 /* footer */
 footer{
-    top: 60px;
+    top: 3.75rem;
+    /* 60px; */
 }

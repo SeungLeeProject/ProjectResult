@@ -126,7 +126,7 @@
     /* 55px; */
     display: block;
     cursor: pointer;
-    background-image: url("/resources/images/icon/section12-icon-L.png");
+    background-image: url("../images/icon/section12-icon-L.png");
     background-size: 100%;
 }
 .controls_12 #next > i{
@@ -136,7 +136,7 @@
     /* 55px; */
     display: block;
     cursor: pointer;
-    background-image: url("/resources/images/icon/section12-icon-R.png");
+    background-image: url("../images/icon/section12-icon-R.png");
     background-size: 100%;
 }
 #con_1_wrap > #btn_1{
@@ -249,7 +249,8 @@
     /* 40px; */
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 20rem;
+    /* 400px; */
     box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, 0.16);
     /* 0px 3px 6px rgba(0, 0, 0, 0.16) */
 }
@@ -260,8 +261,8 @@
     margin: 1rem 1rem 0 1rem;
     /* 20px 20px 0 20px; */
 }
-/* section_2_而⑦뀗痢� �뵒�옄�씤 */
-/* 1. 移댄뀒怨좊━ */
+/* section_2_컨텐츠 디자인 */
+/* 1. 카테고리 */
 .slide_2_list > .con_2_line > [class*='con_2_Categories']{
     flex: 0.2;
 }
@@ -277,8 +278,8 @@
     display: inline-block;
     border-bottom: 1px solid #F16122;
 }
-/* 1. 移댄뀒怨좊━ */
-/* 2. ���씠�� */
+/* 1. 카테고리 */
+/* 2. 타이틀 */
 .slide_2_list > .con_2_line > [class*='con_2_1_title']{
     flex: 1;
 }
@@ -291,8 +292,8 @@
     font-weight: 700;
     color: #191919;
 }
-/* 2. ���씠�� */
-/* 3. �쑀�� */
+/* 2. 타이틀 */
+/* 3. 유저 */
 .slide_2_list > .con_2_line > [class*='con_2_user']{
     flex: 1;
     display: flex;
@@ -332,8 +333,8 @@
     margin-top: 0.25rem;
     /* 5px; */
 }
-/* 3. �쑀�� */
-/* 4. �씠誘몄� */
+/* 3. 유저 */
+/* 4. 이미지 */
 .slide_2_list > .con_2_line > [class*='con_2_imgbox']{
     background-color:darkgrey;
     flex: 6;
@@ -349,8 +350,8 @@
 .slide_2_list > .con_2_line > [class*='con_2_imgbox']:hover{
     background-size: 210%;
 }
-/* 4. �씠誘몄� */
-/* 5. 而ㅻ�ㅻ땲耳��씠�뀡 */
+/* 4. 이미지 */
+/* 5. 커뮤니케이션 */
 .slide_2_list > .con_2_line > [class*='con_2_attention']{
     margin-bottom: 1.5rem;
     /* 30px; */
@@ -403,62 +404,62 @@
     display: block;
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other > .con_2_1_comments > i{
-    background-image: url("/resources/images/icon/article-icon-1.png");
+    background-image: url("../images/icon/article-icon-1.png");
     cursor: pointer;
     background-size: 100%;
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other > .con_2_1_like > i{
-    background-image: url("/resources/images/icon/article-icon-2-1.png");
+    background-image: url("../images/icon/article-icon-2-1.png");
     cursor: pointer;
     transition: all .3s;
     background-size: 100%;
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other > .con_2_1_like > i:hover{
-    background-image: url("/resources/images/icon/article-icon-2-2.png");
+    background-image: url("../images/icon/article-icon-2-2.png");
 }
 .slide_2_list > .con_2_line > [class*='con_2_attention'] > .con_2_1_other p{
     margin: 0.25rem 0 0 0.25rem;
     /* 5px 0 0 5px; */
 }
-/* section_2_而⑦뀗痢� �뵒�옄�씤 */
+/* section_2_컨텐츠 디자인 */
 
-/* 湲� �뱾�뼱媛��뒗 怨� */
+/* 글 들어가는 곳 */
 .con_2_imgbox_1{
-    background-image: url("/resources/images/section_2_img/con_1.png");
+    background-image: url("../images/section_2_img/con_1.png");
     background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
 .con_2_imgbox_2{
-    background-image: url("/resources/images/section_2_img/con_2_2.jpg");
+    background-image: url("../images/section_2_img/con_2_2.jpg");
     background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
 .con_2_imgbox_3{
-    background-image: url("/resources/images/section_2_img/con_2_3.png");
+    background-image: url("../images/section_2_img/con_2_3.png");
     background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
 .con_2_imgbox_4{
-    background-image: url("/resources/images/section_2_img/con_2_4.jpg");
+    background-image: url("../images/section_2_img/con_2_4.jpg");
     background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
 .con_2_imgbox_5{
-    background-image: url("/resources/images/section_2_img/con_2_5.jpg");
+    background-image: url("../images/section_2_img/con_2_5.jpg");
     background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
-/* 湲� �뱾�뼱媛��뒗 怨� */
+/* 글 들어가는 곳 */
 #con_2_wrap > #viewmorebtn{
     display: inline-block;
     width: 5.5rem;
@@ -523,7 +524,8 @@
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li{
     display: inline-block;
     width: 23%;
-    height: 400px;
+    height: 20rem;
+    /* 400px; */
     margin-right: 2%;
     position: relative;
 }
@@ -534,32 +536,32 @@
     width: 50%;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(1){
-    background-image: url("/resources/images/section-3-img/3-1.png");
+    background-image: url("../images/section-3-img/3-1.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(2){
-    background-image: url("/resources/images/section-3-img/3-2.png");
+    background-image: url("../images/section-3-img/3-2.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(3){
-    background-image: url("/resources/images/section-3-img/3-3.png");
+    background-image: url("../images/section-3-img/3-3.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(4){
-    background-image: url("/resources/images/section-3-img/3-4.png");
+    background-image: url("../images/section-3-img/3-4.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(5){
-    background-image: url("/resources/images/section-3-img/3-5.png");
+    background-image: url("../images/section-3-img/3-5.png");
     background-size: cover;
     background-position: center;
 }
 #con_3 > #slide_3 > #slidewrap_3 > .slidelist_3 li:nth-child(6){
-    background-image: url("/resources/images/section-3-img/3-6.png");
+    background-image: url("../images/section-3-img/3-6.png");
     background-size: cover;
     background-position: center;
 }
